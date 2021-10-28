@@ -1,11 +1,11 @@
 // 6 Sorting Algorithms
 /*
- * Bubble Sort
- * Insertion Sort
- * Merge Sort
- * Quick Sort
+ * Bubble Sort (Done)
+ * Selection Sort (Done)
+ * Insertion Sort 
+ * Merge Sort  
+ * Quick Sort 
  * heap sort
- * Selection Sort
 */
 #include<iostream>
 using namespace std;

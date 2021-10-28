@@ -5,10 +5,10 @@ using namespace std;
 
 int main(){
 	// Must be a sorted array
-	int arr[] = {0,1,21,33,45,45,61,71,72,73};
+	int arr[] = {7 , 6 , 4 , 3  ,-1};
 	const int arrSize = (sizeof(arr)/sizeof(arr[0]))- 1;
 	
-	const int numberToFind = 45;// Number we're looking for
+	const int numberToFind = 3;// Number we're looking for
 	
 	// using Pointer's
 	int leftIndex = 0;

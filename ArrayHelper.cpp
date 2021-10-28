@@ -1,5 +1,6 @@
 // Arrays Methods
 #include<iostream>
+#include<algorithm>
 using namespace std;
 
 template<typename T>
@@ -122,6 +123,34 @@ class ArrayHelper{
 			} 
 			Delete(arr,index);
 		}
+		
+		int FindElement(T arr[],T element,bool useBinarySearch=false){
+			if(useBinarySearch){ // use Binary Search
+			    sort(arr,arr+1);
+				T expectedMatch;
+				int leftPtr = 0,rightPtr = sizeOfArr-1;
+				int midPtr;
+				while(rightPtr >= leftPtr){
+					midPtr = (leftPtr + rightPtr) / 2;
+					expectedMatch = arr[midPtr];
+					if(expectedMatch == element)
+					    return midPtr;
+					else if(element < expectedMatch)
+					    leftPtr = midPtr+1;
+					else if(element > expectedMatch)
+					    rightPtr = midPtr -1;
+				}
+				return -1;
+			}
+			else{
+				for(int i=0;i<currentIndex+1;++i)
+					if(arr[i] == element)
+					   return i;
+				return -1;
+			}
+		}
+		
+		
 	private:
 		int sizeOfArr;
 		T defaultGarbge;
@@ -155,6 +184,8 @@ int main(){
 	arrayHelper.Push_Top(arr,7);
 	
 	arrayHelper.Delete(arr,elementToDelete);
+	// Finding element in Array
+	cout<<arrayHelper.FindElement(arr,3,true)<<endl;
 	
 	arrayHelper.Debug(arr);
 	arrayHelper.Print(arr);
