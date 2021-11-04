@@ -1,4 +1,9 @@
-// Arrays Methods
+// Arrays Methods 
+
+/*
+   git pull --set-upstream origin master
+   https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
+*/
 #include<iostream>
 #include<algorithm>
 using namespace std;
