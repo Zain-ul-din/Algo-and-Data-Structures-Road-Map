@@ -1,6 +1,7 @@
 #include<iostream>
 #include<stack>
 #include<string>
+#include<algorithm>
 using namespace std;
 
 
@@ -66,6 +67,17 @@ string InfixToPostFix(string exp){
 }
 
 //string InfixToPrefix()
+string InfixToPrefix(string exp){
+	reverse(exp.begin(),exp.end());
+	
+	for(int i=0;i<exp.length();i++)
+	
+	
+	string result = InfixToPostFix(exp);
+	
+	reverse(result.begin(),result.end());
+	return result;
+}
 int main(){
 	string exp = "q+t+v/u/w*p^o(+n+m-l+k)";
 	cout<<InfixToPostFix(exp)<<endl;

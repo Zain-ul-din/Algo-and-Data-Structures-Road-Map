@@ -1,0 +1,33 @@
+[1mdiff --git a/Algo_RoadMap/Queue/InfixexpConv.cpp b/Algo_RoadMap/Queue/InfixexpConv.cpp[m
+[1mindex dc34c98..c19f634 100644[m
+[1m--- a/Algo_RoadMap/Queue/InfixexpConv.cpp[m
+[1m+++ b/Algo_RoadMap/Queue/InfixexpConv.cpp[m
+[36m@@ -1,6 +1,7 @@[m
+ #include<iostream>[m
+ #include<stack>[m
+ #include<string>[m
+[32m+[m[32m#include<algorithm>[m
+ using namespace std;[m
+ [m
+ [m
+[36m@@ -66,6 +67,17 @@[m [mstring InfixToPostFix(string exp){[m
+ }[m
+ [m
+ //string InfixToPrefix()[m
+[32m+[m[32mstring InfixToPrefix(string exp){[m
+[32m+[m	[32mreverse(exp.begin(),exp.end());[m
+[32m+[m[41m	[m
+[32m+[m	[32mfor(int i=0;i<exp.length();i++)[m
+[32m+[m[41m	[m
+[32m+[m[41m	[m
+[32m+[m	[32mstring result = InfixToPostFix(exp);[m
+[32m+[m[41m	[m
+[32m+[m	[32mreverse(result.begin(),result.end());[m
+[32m+[m	[32mreturn result;[m
+[32m+[m[32m}[m
+ int main(){[m
+ 	string exp = "q+t+v/u/w*p^o(+n+m-l+k)";[m
+ 	cout<<InfixToPostFix(exp)<<endl;[m
+[1mdiff --git a/Algo_RoadMap/Queue/InfixexpConv.exe b/Algo_RoadMap/Queue/InfixexpConv.exe[m
+[1mindex ab29a11..7f9a26b 100644[m
+Binary files a/Algo_RoadMap/Queue/InfixexpConv.exe and b/Algo_RoadMap/Queue/InfixexpConv.exe differ
