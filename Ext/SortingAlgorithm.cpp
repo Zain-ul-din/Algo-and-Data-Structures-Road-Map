@@ -78,6 +78,7 @@ int Max(T arr[],int start,int size,T element){
 	int index = start;
 	for(int i=start;i<size;++i){
 		if(arr[i] > element){
+		   element = arr[i]; // updating Max if Found
 		   index = i;
 		}
 	}
