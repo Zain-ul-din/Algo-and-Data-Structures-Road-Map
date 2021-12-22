@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="C__" targetName="C__" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12a73ac8-4185-47dd-af8c-e075bb5cbe2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/C++ DSA Project/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++ DSA Project/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/String.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algo_RoadMap/Mid Assigment/Demo Helper Lib/DemoHelper.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/Algo_RoadMap/Mid Assigment/Demo Helper Lib/DemoHelper.h.gch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algo_RoadMap/Project Pre/FileSystem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algo_RoadMap/Project Pre/FileSystem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algo_RoadMap/STL Remake/List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algo_RoadMap/STL Remake/List.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22XoLwpygO88pgQ5q9zc42EqY4r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="C__" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="C__" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="C__">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12a73ac8-4185-47dd-af8c-e075bb5cbe2e" name="Default Changelist" comment="" />
+      <created>1639993241274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639993241274</updated>
+      <workItem from="1639993245242" duration="2843000" />
+      <workItem from="1640013837715" duration="13000" />
+      <workItem from="1640095588068" duration="5931000" />
+      <workItem from="1640103291164" duration="1750000" />
+      <workItem from="1640155354479" duration="478000" />
+      <workItem from="1640165443251" duration="633000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
