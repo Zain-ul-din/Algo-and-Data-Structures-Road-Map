@@ -92,6 +92,9 @@ int main(){
    c_queue.Dequeue();
    c_queue.Enqueue(7);
    c_queue.Dequeue();
+   string name = "Any name";
+   
+   long long myContactNumber = 89482374823;
    c_queue.Dequeue();
    c_queue.Dequeue();
    c_queue.Dequeue();

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++/C++ Design Pattern/ProjectFileHandling/Project.cpp
+iostream
+-
+string
+-
+fstream
+-
+windows.h
+-
+sstream
+-
+iterator
+-
+algorithm
+-
+

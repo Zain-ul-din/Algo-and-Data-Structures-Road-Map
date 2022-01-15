@@ -12,10 +12,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f781bdf7-904f-49b2-b7fc-177ef8f2cc64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo_RoadMap/Project Pre/FileSystem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo_RoadMap/Project Pre/FileSystem.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo_RoadMap/STL Remake/List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo_RoadMap/STL Remake/List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/CPlusSeventeenPacks/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/CPlusSeventeenPacks/PassByRef.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/CPlusSeventeenPacks/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/Day1/SOD.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/OOP_inCPlusPlus/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/OOP_inCPlusPlus/HTML.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/OOP_inCPlusPlus/HTMLHelper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/OOP_inCPlusPlus/Tag.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/OOP_inCPlusPlus/Utilities.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/OOP_inCPlusPlus/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/ProjectFileHandling/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/ProjectFileHandling/DataBase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/ProjectFileHandling/Inheritance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/ProjectFileHandling/JSON Convertor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/ProjectFileHandling/Project.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/ProjectFileHandling/QuickSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/ProjectFileHandling/SmartPointer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/ProjectFileHandling/Time.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++ Design Pattern/ProjectFileHandling/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo_RoadMap/STL Remake/.idea/.idea.STL Remake.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo_RoadMap/STL Remake/.idea/.idea.STL Remake.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algo_RoadMap/STL Remake/CircularQueue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo_RoadMap/STL Remake/CircularQueue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Login/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +45,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -63,6 +82,9 @@
       <workItem from="1639817312223" duration="2035000" />
       <workItem from="1639819406577" duration="40000" />
       <workItem from="1639821133846" duration="57000" />
+      <workItem from="1641189046240" duration="44000" />
+      <workItem from="1641189231255" duration="36000" />
+      <workItem from="1642142945853" duration="35000" />
     </task>
     <servers />
   </component>

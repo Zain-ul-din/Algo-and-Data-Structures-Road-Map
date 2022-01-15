@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++/CLionApp/HotDrink.h
+iostream
+-
+memory
+-
+
+D:/C++/CLionApp/IHotDrinkFactory.h
+HotDrink.h
+D:/C++/CLionApp/HotDrink.h
+
+D:/C++/CLionApp/main.cpp
+iostream
+-
+string
+-
+sstream
+-
+vector
+-
+cmath
+-
+IHotDrinkFactory.h
+D:/C++/CLionApp/IHotDrinkFactory.h
+

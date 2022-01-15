@@ -12,12 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12a73ac8-4185-47dd-af8c-e075bb5cbe2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C++ DSA Project/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C++ DSA Project/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/String.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo_RoadMap/Mid Assigment/Demo Helper Lib/DemoHelper.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/Algo_RoadMap/Mid Assigment/Demo Helper Lib/DemoHelper.h.gch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo_RoadMap/Project Pre/FileSystem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algo_RoadMap/Project Pre/FileSystem.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo_RoadMap/STL Remake/List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algo_RoadMap/STL Remake/List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++ Design Pattern/Day1/SOD.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++ Design Pattern/OOP_inCPlusPlus/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++ Design Pattern/OOP_inCPlusPlus/HTML.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++ Design Pattern/OOP_inCPlusPlus/HTMLHelper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++ Design Pattern/OOP_inCPlusPlus/Tag.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++ Design Pattern/OOP_inCPlusPlus/Utilities.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C++ Design Pattern/OOP_inCPlusPlus/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algo_RoadMap/STL Remake/.idea/.idea.STL Remake.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Algo_RoadMap/STL Remake/.idea/.idea.STL Remake.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algo_RoadMap/STL Remake/CircularQueue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algo_RoadMap/STL Remake/CircularQueue.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +31,16 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="22XoLwpygO88pgQ5q9zc42EqY4r" />
   <component name="ProjectViewState">
@@ -68,6 +79,9 @@
       <workItem from="1640103291164" duration="1750000" />
       <workItem from="1640155354479" duration="478000" />
       <workItem from="1640165443251" duration="633000" />
+      <workItem from="1640180541257" duration="41000" />
+      <workItem from="1640180612428" duration="46000" />
+      <workItem from="1641188980557" duration="25000" />
     </task>
     <servers />
   </component>

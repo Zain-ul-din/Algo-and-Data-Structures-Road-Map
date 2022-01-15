@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++/C++ Design Pattern/OOP_inCPlusPlus/HTML.h
+HTMLHelper.h
+D:/C++/C++ Design Pattern/OOP_inCPlusPlus/HTMLHelper.h
+fstream
+-
+string
+-
+vector
+-
+
+D:/C++/C++ Design Pattern/OOP_inCPlusPlus/HTMLHelper.h
+Tag.h
+D:/C++/C++ Design Pattern/OOP_inCPlusPlus/Tag.h
+string
+-
+sstream
+-
+queue
+-
+
+D:/C++/C++ Design Pattern/OOP_inCPlusPlus/Tag.h
+Utilities.h
+D:/C++/C++ Design Pattern/OOP_inCPlusPlus/Utilities.h
+
+D:/C++/C++ Design Pattern/OOP_inCPlusPlus/Utilities.h
+
+D:/C++/C++ Design Pattern/OOP_inCPlusPlus/main.cpp
+iostream
+-
+string
+-
+sstream
+-
+vector
+-
+map
+-
+HTML.h
+D:/C++/C++ Design Pattern/OOP_inCPlusPlus/HTML.h
+

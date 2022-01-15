@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++/C++ Design Pattern/Day1/Main.cpp
+iostream
+-
+vector
+-
+string
+-
+fstream
+-
+sstream
+-
+string
+-
+cstdio
+-
+tuple
+-
+
