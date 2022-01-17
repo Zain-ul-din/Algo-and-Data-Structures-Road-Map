@@ -3,6 +3,30 @@
 #include <string>
 #include <sstream>
 
+#include <map>
+#include <unordered_map>
+
+// using namespace
+
+
+class Data{
+public:
+   int data;
+
+};
+
+std::vector<std::string> find_Duplicate(std::string ss){
+    std::vector<std::string> res;
+    std::map<char , int> table;
+
+    for(const auto &c :ss)
+        table[c]++;
+
+    for(int i=0 ; i <table.size() ;i++)
+
+
+    return res;
+}
 
 // Trees
 class Node{
@@ -263,30 +287,136 @@ int main() {
             << "\n";
 
 
+    int rightIndent = 9;
+
+    for(int i=0; i < 10; i++) {
+        for (int j = 0; j < 10; j++)
+            if (i == j || j == rightIndent && i != rightIndent)
+                std::cout << "*";
+            else std::cout << " ";
+        rightIndent--;
+            std::cout <<"\n";
+    }
+
+//    __asm{
+//        MOV DX , 3
+//        MOV AH ,2
+//        INT 21H
+//    }
 
 
 
-
-
-
-
-
-
-
-
-
-
-    __asm{
-
+    for(int i=0 ;i <5; i++){
+        for(int j =0 ; j<i ;j++)
+            std::cout<<"*";
+        std::cout<<"\n";
     }
 
 
-
-
-
+   for(auto i : find_Duplicate("myName")){
+       std::cout << i <<std::endl;
+   }
 
 }
 
+
+#include <typeinfo>
+
+
+/*
+ * Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
+:-
+  Examples:-
+          pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
+          pigIt('Hello world !');     // elloHay orldway !
+
+
+ // Oay emporatay oay oresmay !
+ O emporatay o oresmay !
+ */
+
+std::string pig_it_Helper(std::string str){
+    if(str.length() <= 1 && !isalpha(str[0]))
+        return str;
+
+    std::string ss;
+
+    for(size_t i=0 ; i <str.length() ; i++)
+        if(i != 0 ) ss.push_back(str[i]);
+    ss.push_back(str[0]);
+    return ss + "ay";
+}
+
+std::string pig_it(std::string str){
+    std::string res;
+
+    std::vector<std::string> vec;
+
+    std::string tempStr;
+
+    // Convert into sub strings
+    for(size_t i = 0 ; i<str.length() ; i++){
+        if(str[i] == ' '){
+            if(!tempStr.empty())
+                vec.push_back(tempStr);
+            tempStr=""; // reset back to null
+        }else tempStr.push_back(str[i]);
+    }
+
+    if(!tempStr.empty())
+        vec.push_back(tempStr); // copy remaining string
+
+    for(size_t i =0 ; i < vec.size() ; i++)
+        res += pig_it_Helper(vec[i]) +((i != vec.size() -1) ? " " : "");
+
+    return res;
+}
+
+
+/*
+ expected 'uutnlwCIDFgaeZMBway . hcahKIpdlhigCwCmYKQay lFfZfUWRUJPZOQEuwUay ? HMyxDdrEpay bfvBTay WGiaTwhgSxMPOay XFunay eHfay undefineday fqay ! aBygJlFAKUray QACuGbrJqVhrGKJzay undefineday NuyAMnUTtay mbcNhhUNFay' to equal 'uutnlwCIDFgaeZMBway . hcahKIpdlhigCwCmYKQay lFfZfUWRUJPZOQEuwUay ? HMyxDdrEpay bfvBTay WGiaTwhgSxMPOay XFunay eHfay fqay ! aBygJlFAKUray QACuGbrJqVhrGKJzay NuyAMnUTtay mbcNhhUNFay'
+
+
+ */
+
+/*
+ * std::string pig_it_Helper(std::string str){
+     if(str.length() <= 1 && !isalpha(str[0]))
+        return str;
+
+    std::string ss;
+
+    for(size_t i=0 ; i <str.length() ; i++)
+        if(i != 0 ) ss.push_back(str[i]);
+    ss.push_back(str[0]);
+    return ss + "ay";
+}
+
+std::string pig_it(std::string str){
+    std::string res;
+
+    std::vector<std::string> vec;
+
+    std::string tempStr;
+
+    // Convert into sub strings
+    for(size_t i = 0 ; i<str.length() ; i++){
+        if(str[i] == ' '){
+            if(!tempStr.empty())
+                vec.push_back(tempStr);
+            tempStr=""; // reset back to null
+        }else tempStr.push_back(str[i]);
+    }
+
+    if(!tempStr.empty())
+        vec.push_back(tempStr); // copy remaining string
+
+    for(size_t i =0 ; i < vec.size() ; i++)
+        res += pig_it_Helper(vec[i]) +((i != vec.size() -1) ? " " : "");
+
+    return res;
+}
+ */
 
 
 
@@ -296,4 +426,16 @@ int main() {
  *          1  9
  *            /\
  *           5  7
+ */
+
+
+/*
+ *
+ * #include <string>
+#include <regex>
+using namespace std;
+string pig_it(string Z) {
+    regex reg(("(\\w)(\\w*)(\\s|$)"));
+    return regex_replace(Z, reg, "$2$1ay$3");
+}
  */
