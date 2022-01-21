@@ -126,6 +126,33 @@ AfterMid\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\build
 .PHONY : AfterMid\fast
 
+Threading.obj: Threading.cpp.obj
+
+.PHONY : Threading.obj
+
+# target to build an object file
+Threading.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\Threading.cpp.obj
+.PHONY : Threading.cpp.obj
+
+Threading.i: Threading.cpp.i
+
+.PHONY : Threading.i
+
+# target to preprocess a source file
+Threading.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\Threading.cpp.i
+.PHONY : Threading.cpp.i
+
+Threading.s: Threading.cpp.s
+
+.PHONY : Threading.s
+
+# target to generate assembly for a file
+Threading.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\Threading.cpp.s
+.PHONY : Threading.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -162,6 +189,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AfterMid
+	@echo ... Threading.obj
+	@echo ... Threading.i
+	@echo ... Threading.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

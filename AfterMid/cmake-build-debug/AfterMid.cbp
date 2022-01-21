@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/C++/AfterMid/Threading.cpp">
+			<Option target="AfterMid"/>
+		</Unit>
 		<Unit filename="D:/C++/AfterMid/main.cpp">
 			<Option target="AfterMid"/>
 		</Unit>

@@ -79,17 +79,38 @@ CMakeFiles\AfterMid.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\AfterMid.dir\main.cpp.s /c D:\C++\AfterMid\main.cpp
 <<
 
+CMakeFiles\AfterMid.dir\Threading.cpp.obj: CMakeFiles\AfterMid.dir\flags.make
+CMakeFiles\AfterMid.dir\Threading.cpp.obj: ..\Threading.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++\AfterMid\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AfterMid.dir/Threading.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\AfterMid.dir\Threading.cpp.obj /FdCMakeFiles\AfterMid.dir\ /FS -c D:\C++\AfterMid\Threading.cpp
+<<
+
+CMakeFiles\AfterMid.dir\Threading.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AfterMid.dir/Threading.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\AfterMid.dir\Threading.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++\AfterMid\Threading.cpp
+<<
+
+CMakeFiles\AfterMid.dir\Threading.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AfterMid.dir/Threading.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\AfterMid.dir\Threading.cpp.s /c D:\C++\AfterMid\Threading.cpp
+<<
+
 # Object files for target AfterMid
 AfterMid_OBJECTS = \
-"CMakeFiles\AfterMid.dir\main.cpp.obj"
+"CMakeFiles\AfterMid.dir\main.cpp.obj" \
+"CMakeFiles\AfterMid.dir\Threading.cpp.obj"
 
 # External object files for target AfterMid
 AfterMid_EXTERNAL_OBJECTS =
 
 AfterMid.exe: CMakeFiles\AfterMid.dir\main.cpp.obj
+AfterMid.exe: CMakeFiles\AfterMid.dir\Threading.cpp.obj
 AfterMid.exe: CMakeFiles\AfterMid.dir\build.make
 AfterMid.exe: CMakeFiles\AfterMid.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C++\AfterMid\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AfterMid.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C++\AfterMid\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable AfterMid.exe"
 	"D:\System\__C_Lion\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\AfterMid.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\AfterMid.dir\objects1.rsp @<<
  /out:AfterMid.exe /implib:AfterMid.lib /pdb:D:\C++\AfterMid\cmake-build-debug\AfterMid.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

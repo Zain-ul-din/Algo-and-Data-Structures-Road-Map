@@ -77,12 +77,12 @@ clean: CMakeFiles\AfterMid.dir\clean
 CMakeFiles\AfterMid.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++\AfterMid\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target AfterMid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++\AfterMid\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target AfterMid"
 .PHONY : CMakeFiles\AfterMid.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\AfterMid.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++\AfterMid\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++\AfterMid\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++\AfterMid\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\AfterMid.dir\rule

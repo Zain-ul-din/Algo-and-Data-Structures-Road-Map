@@ -2,9 +2,15 @@
 #include <algorithm>
 #include <string>
 #include <sstream>
-
 #include <map>
-#include <unordered_map>
+#include<regex>
+
+// SOLID
+// Single Responsibility principle
+// open close principle
+// liskov substitution principle
+// interface segregation principle
+// dependency inversion
 
 // using namespace
 
@@ -22,8 +28,13 @@ std::vector<std::string> find_Duplicate(std::string ss){
     for(const auto &c :ss)
         table[c]++;
 
-    for(int i=0 ; i <table.size() ;i++)
-
+   for(auto itr = table.begin() ; itr!= table.end() ; itr++){
+       if(itr->second > 1){
+           std::string  ss ;
+           ss+=itr->first;
+           res.push_back(ss);
+       }
+   }
 
     return res;
 }
@@ -313,7 +324,7 @@ int main() {
     }
 
 
-   for(auto i : find_Duplicate("myName")){
+   for(auto i : find_Duplicate("myname")){
        std::cout << i <<std::endl;
    }
 
@@ -354,7 +365,7 @@ std::string pig_it(std::string str){
 
     std::string tempStr;
 
-    // Convert into sub strings
+    // Converts into sub strings
     for(size_t i = 0 ; i<str.length() ; i++){
         if(str[i] == ' '){
             if(!tempStr.empty())
@@ -370,6 +381,7 @@ std::string pig_it(std::string str){
         res += pig_it_Helper(vec[i]) +((i != vec.size() -1) ? " " : "");
 
     return res;
+
 }
 
 
@@ -437,5 +449,46 @@ using namespace std;
 string pig_it(string Z) {
     regex reg(("(\\w)(\\w*)(\\s|$)"));
     return regex_replace(Z, reg, "$2$1ay$3");
+}
+ */
+
+/*
+ #include<iostream>
+#include<sstream>
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+string pig_it(string str)
+{
+
+  string punctuation = "!.,:;?";
+  string result = "";
+  stringstream ss;
+  ss << str;
+
+  for (char ch; ss.get(ch);) { //read char and whitespace
+
+    if (isspace(ch))
+      result += ch;
+
+    else {
+      ss.putback(ch); //read a word from the stream
+      string word;
+      ss >> word;
+
+      if (find(punctuation.begin(), punctuation.end(), word[0]) == punctuation.end()) {
+        word.push_back(word[0]);
+        word.erase(word.begin());
+        word.push_back('a');
+        word.push_back('y');
+      }
+      result += word;
+    }
+  }
+
+  return result;
 }
  */

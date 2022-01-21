@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/C++/AfterMid/main.cpp
+D:/C++/AfterMid/Threading.cpp
 iostream
--
-algorithm
 -
 string
 -
+fstream
+-
+windows.h
+-
 sstream
 -
-map
+iterator
 -
-unordered_map
--
-vector
+algorithm
 -
 
