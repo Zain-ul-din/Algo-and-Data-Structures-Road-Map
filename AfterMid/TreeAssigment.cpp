@@ -16,10 +16,13 @@ public:
     // BST Construction
 
     BST();
+    BST(Node *root, int nodeCount);
     void  Insert(int data);
     bool  IsContain(int data);
     Node* GetRoot();
     void  Display(Node*);
+    void  DeleteNode(int );
+
 
     // Bst Assigment Questions
 
@@ -30,6 +33,8 @@ public:
     void   StatusOfNodes();
     bool   IsValidBST();
 
+
+
 private:
     Node* root;
     int   nodeCount;
@@ -39,6 +44,7 @@ private:
     void  GetSumOfNodes(Node*, int&);
     void  NodeStatus_Helper(Node*);
     void  IsValidBstHelper(Node*, bool &);
+    int   GetMinValueInNode(Node*);
 };
 
 
@@ -199,6 +205,83 @@ bool BST::IsContain(int data) {
     return false;
 }
 
+// Helper
+int BST::GetMinValueInNode(Node *node) {
+
+    if(node->left == nullptr){
+        int minVal = node->data;
+        delete node;
+        return minVal;
+    }
+
+    GetMinValueInNode(root->left);
+}
+
+void BST::DeleteNode(int data) {
+     if(root == nullptr) //  Null Case
+         return;
+
+     /*
+      * Step one : Find Node
+      * if its Found:
+      *    ! we have to keep track of parent also
+      *    Case 1 : if node have both nodes null
+      *    Case 2 : if node have null left node
+      *    Case 3 : if node have null right node
+      *    default: if node have both left and right Node , not of them is null
+      */
+     Node* itr = root;
+     Node* parent = root; // To keep track of Parent Node
+
+    while (itr != nullptr){
+        if(data < itr->data){
+            parent = itr;
+            itr = itr->left;
+        }
+        else if(data > itr->data){
+            parent = itr;
+            itr = itr->right;
+        }
+        else {
+             if(parent->left == nullptr && parent->right == nullptr){ // Case : Node have no child
+                 Node* temp = parent;
+                 parent = nullptr;
+                 delete temp;
+                 return;
+             }
+
+             // Case Right Node is Null
+             if(itr->right == nullptr){
+
+                 // To Remains Bst Conversation :-)
+                 if(itr->data > parent->data)
+                     parent->right = itr->left;
+                 else
+                     parent->left = itr->left;
+
+                 delete itr;
+                 return;
+             }
+
+             // Case Left Node is Null
+             if(itr->left == nullptr){
+
+                 // To Remains Bst Conversation :-)
+                 if(itr->data > parent->data)
+                     parent->right = itr->right;
+                 else
+                     parent->left = itr->right;
+
+                 delete itr;
+                 return;
+             }
+
+             // Node have both left and right Node
+             itr->data = GetMinValueInNode(itr->right);
+        }
+    }
+    return; // Invalid data Given to Delete
+}
 
 Node *BST::GetRoot() {
     return this->root;
@@ -211,6 +294,11 @@ void BST::Display(Node *root) {
     Display(root->left);
     Display(root->right);
 }
+
+BST::BST(Node *root, int nodeCount) : root(root), nodeCount(nodeCount) {}
+
+
+
 
 int main(){
     BST bst;
@@ -259,6 +347,13 @@ int main(){
     if(bst.IsValidBST())
         std::cout << " _  Valid BST \n";
     else std::cout <<" _ InValid BST \n";
+
+    // Delete Node | O(n) Time
+    bst.DeleteNode(1);
+
+    // After Deleting Node
+    std::cout << "\n>> After Deleting :- \n";
+    bst.Display(bst.GetRoot());
 }
 
 /*
