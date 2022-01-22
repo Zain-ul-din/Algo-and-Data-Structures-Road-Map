@@ -44,7 +44,7 @@ private:
     void  GetSumOfNodes(Node*, int&);
     void  NodeStatus_Helper(Node*);
     void  IsValidBstHelper(Node*, bool &);
-    int   GetMinValueInNode(Node*);
+    int   GetMinValueInNode(Node* , Node*);
 };
 
 
@@ -206,15 +206,25 @@ bool BST::IsContain(int data) {
 }
 
 // Helper
-int BST::GetMinValueInNode(Node *node) {
+int BST::GetMinValueInNode(Node *node , Node* parent) {
 
     if(node->left == nullptr){
         int minVal = node->data;
+
+        // dealing with right Node
+        if(node->right != nullptr){
+            if(node->right->data > parent->data)
+                parent->right = node->right;
+            else
+                parent->left = node->right;
+        }
+
         delete node;
         return minVal;
     }
 
-    GetMinValueInNode(root->left);
+    // Keep Track of Parent
+    GetMinValueInNode(node->left,node);
 }
 
 void BST::DeleteNode(int data) {
@@ -277,7 +287,8 @@ void BST::DeleteNode(int data) {
              }
 
              // Node have both left and right Node
-             itr->data = GetMinValueInNode(itr->right);
+             int minVal = GetMinValueInNode(itr->right , parent); // can't delete 3 now
+             itr->data = minVal;
         }
     }
     return; // Invalid data Given to Delete
@@ -349,7 +360,7 @@ int main(){
     else std::cout <<" _ InValid BST \n";
 
     // Delete Node | O(n) Time
-    bst.DeleteNode(1);
+    bst.DeleteNode(3);
 
     // After Deleting Node
     std::cout << "\n>> After Deleting :- \n";
