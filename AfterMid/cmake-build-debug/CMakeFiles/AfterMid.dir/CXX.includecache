@@ -6,19 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/C++/AfterMid/Threading.cpp
+D:/C++/AfterMid/TreeAssigment.cpp
 iostream
--
-string
--
-fstream
--
-windows.h
--
-sstream
--
-iterator
--
-algorithm
 -
 

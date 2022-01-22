@@ -3,4 +3,6 @@ project(AfterMid)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(AfterMid main.cpp Threading.cpp)
+add_executable(AfterMid  TreeAssigment.cpp)
+
+# main.cpp Threading.cpp

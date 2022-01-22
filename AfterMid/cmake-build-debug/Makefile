@@ -126,59 +126,32 @@ AfterMid\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\build
 .PHONY : AfterMid\fast
 
-Threading.obj: Threading.cpp.obj
+TreeAssigment.obj: TreeAssigment.cpp.obj
 
-.PHONY : Threading.obj
-
-# target to build an object file
-Threading.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\Threading.cpp.obj
-.PHONY : Threading.cpp.obj
-
-Threading.i: Threading.cpp.i
-
-.PHONY : Threading.i
-
-# target to preprocess a source file
-Threading.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\Threading.cpp.i
-.PHONY : Threading.cpp.i
-
-Threading.s: Threading.cpp.s
-
-.PHONY : Threading.s
-
-# target to generate assembly for a file
-Threading.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\Threading.cpp.s
-.PHONY : Threading.cpp.s
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
+.PHONY : TreeAssigment.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\main.cpp.obj
-.PHONY : main.cpp.obj
+TreeAssigment.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\TreeAssigment.cpp.obj
+.PHONY : TreeAssigment.cpp.obj
 
-main.i: main.cpp.i
+TreeAssigment.i: TreeAssigment.cpp.i
 
-.PHONY : main.i
+.PHONY : TreeAssigment.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\main.cpp.i
-.PHONY : main.cpp.i
+TreeAssigment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\TreeAssigment.cpp.i
+.PHONY : TreeAssigment.cpp.i
 
-main.s: main.cpp.s
+TreeAssigment.s: TreeAssigment.cpp.s
 
-.PHONY : main.s
+.PHONY : TreeAssigment.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\main.cpp.s
-.PHONY : main.cpp.s
+TreeAssigment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\TreeAssigment.cpp.s
+.PHONY : TreeAssigment.cpp.s
 
 # Help Target
 help:
@@ -189,12 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AfterMid
-	@echo ... Threading.obj
-	@echo ... Threading.i
-	@echo ... Threading.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... TreeAssigment.obj
+	@echo ... TreeAssigment.i
+	@echo ... TreeAssigment.s
 .PHONY : help
 
 
