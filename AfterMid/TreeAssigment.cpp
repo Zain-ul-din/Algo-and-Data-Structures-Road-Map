@@ -160,7 +160,7 @@ void BST::Insert(int data) {
 
     Node* itr = root;
     while (true){
-        if(data <= itr->data){ // right
+        if(data < itr->data){ // right
             if(itr->left == nullptr){
                 itr->left = new Node{data , nullptr , nullptr};
                 nodeCount++;
@@ -168,13 +168,17 @@ void BST::Insert(int data) {
             }
             else itr = itr ->left;
         }
-        else{
+        else if(data > itr->data){
             if(itr->right == nullptr){
                 itr->right = new Node{data , nullptr , nullptr};
                 nodeCount++;
                 return;
             }
             else itr = itr->right;
+        }
+        else{
+            std::cout << "\nCan't Add Duplicate in BST !!\n";
+            return;
         }
     }
 }
