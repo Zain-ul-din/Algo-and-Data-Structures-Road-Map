@@ -60,33 +60,33 @@ include CMakeFiles\AfterMid.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\AfterMid.dir\flags.make
 
-CMakeFiles\AfterMid.dir\TreeAssigment.cpp.obj: CMakeFiles\AfterMid.dir\flags.make
-CMakeFiles\AfterMid.dir\TreeAssigment.cpp.obj: ..\TreeAssigment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++\AfterMid\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AfterMid.dir/TreeAssigment.cpp.obj"
+CMakeFiles\AfterMid.dir\AllTrees.cpp.obj: CMakeFiles\AfterMid.dir\flags.make
+CMakeFiles\AfterMid.dir\AllTrees.cpp.obj: ..\AllTrees.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++\AfterMid\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AfterMid.dir/AllTrees.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\AfterMid.dir\TreeAssigment.cpp.obj /FdCMakeFiles\AfterMid.dir\ /FS -c D:\C++\AfterMid\TreeAssigment.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\AfterMid.dir\AllTrees.cpp.obj /FdCMakeFiles\AfterMid.dir\ /FS -c D:\C++\AfterMid\AllTrees.cpp
 <<
 
-CMakeFiles\AfterMid.dir\TreeAssigment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AfterMid.dir/TreeAssigment.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\AfterMid.dir\TreeAssigment.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++\AfterMid\TreeAssigment.cpp
+CMakeFiles\AfterMid.dir\AllTrees.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AfterMid.dir/AllTrees.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\AfterMid.dir\AllTrees.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++\AfterMid\AllTrees.cpp
 <<
 
-CMakeFiles\AfterMid.dir\TreeAssigment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AfterMid.dir/TreeAssigment.cpp.s"
+CMakeFiles\AfterMid.dir\AllTrees.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AfterMid.dir/AllTrees.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\AfterMid.dir\TreeAssigment.cpp.s /c D:\C++\AfterMid\TreeAssigment.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\AfterMid.dir\AllTrees.cpp.s /c D:\C++\AfterMid\AllTrees.cpp
 <<
 
 # Object files for target AfterMid
 AfterMid_OBJECTS = \
-"CMakeFiles\AfterMid.dir\TreeAssigment.cpp.obj"
+"CMakeFiles\AfterMid.dir\AllTrees.cpp.obj"
 
 # External object files for target AfterMid
 AfterMid_EXTERNAL_OBJECTS =
 
-AfterMid.exe: CMakeFiles\AfterMid.dir\TreeAssigment.cpp.obj
+AfterMid.exe: CMakeFiles\AfterMid.dir\AllTrees.cpp.obj
 AfterMid.exe: CMakeFiles\AfterMid.dir\build.make
 AfterMid.exe: CMakeFiles\AfterMid.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C++\AfterMid\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AfterMid.exe"

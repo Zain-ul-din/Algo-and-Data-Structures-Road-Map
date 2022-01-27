@@ -227,6 +227,7 @@ int BST::GetMinValueInNode(Node *node , Node* parent) {
     GetMinValueInNode(node->left,node);
 }
 
+
 void BST::DeleteNode(int data) {
      if(root == nullptr) //  Null Case
          return;

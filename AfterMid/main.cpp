@@ -15,11 +15,20 @@
 // using namespace
 
 
+// Solid
+// Single Responsibility
+// open-close
+// liskov substitution
+// interface segregation
+// dependency inversion
+
 class Data{
 public:
    int data;
 
 };
+
+
 
 std::vector<std::string> find_Duplicate(std::string ss){
     std::vector<std::string> res;

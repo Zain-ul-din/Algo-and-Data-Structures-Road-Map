@@ -126,32 +126,32 @@ AfterMid\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\build
 .PHONY : AfterMid\fast
 
-TreeAssigment.obj: TreeAssigment.cpp.obj
+AllTrees.obj: AllTrees.cpp.obj
 
-.PHONY : TreeAssigment.obj
+.PHONY : AllTrees.obj
 
 # target to build an object file
-TreeAssigment.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\TreeAssigment.cpp.obj
-.PHONY : TreeAssigment.cpp.obj
+AllTrees.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\AllTrees.cpp.obj
+.PHONY : AllTrees.cpp.obj
 
-TreeAssigment.i: TreeAssigment.cpp.i
+AllTrees.i: AllTrees.cpp.i
 
-.PHONY : TreeAssigment.i
+.PHONY : AllTrees.i
 
 # target to preprocess a source file
-TreeAssigment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\TreeAssigment.cpp.i
-.PHONY : TreeAssigment.cpp.i
+AllTrees.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\AllTrees.cpp.i
+.PHONY : AllTrees.cpp.i
 
-TreeAssigment.s: TreeAssigment.cpp.s
+AllTrees.s: AllTrees.cpp.s
 
-.PHONY : TreeAssigment.s
+.PHONY : AllTrees.s
 
 # target to generate assembly for a file
-TreeAssigment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\TreeAssigment.cpp.s
-.PHONY : TreeAssigment.cpp.s
+AllTrees.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\AllTrees.cpp.s
+.PHONY : AllTrees.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AfterMid
-	@echo ... TreeAssigment.obj
-	@echo ... TreeAssigment.i
-	@echo ... TreeAssigment.s
+	@echo ... AllTrees.obj
+	@echo ... AllTrees.i
+	@echo ... AllTrees.s
 .PHONY : help
 
 

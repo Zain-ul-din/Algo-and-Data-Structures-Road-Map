@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/C++/AfterMid/TreeAssigment.cpp" "D:/C++/AfterMid/cmake-build-debug/CMakeFiles/AfterMid.dir/TreeAssigment.cpp.obj"
+  "D:/C++/AfterMid/AllTrees.cpp" "D:/C++/AfterMid/cmake-build-debug/CMakeFiles/AfterMid.dir/AllTrees.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
