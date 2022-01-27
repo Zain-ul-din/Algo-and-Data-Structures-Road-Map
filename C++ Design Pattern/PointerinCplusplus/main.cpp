@@ -217,3 +217,39 @@ int main (){
 }
  // https://pythontutor.com/cpp.html#mode=edit
 */
+
+
+/*
+#include<iostream>
+
+#define Debug(X) std::cout << "value of " <<#X << " = " <<X <<std::endl;
+
+int main (){
+  int val = 10;
+  Debug(val);
+  Debug(&val);
+  
+  int* ptr = &val;
+  Debug(ptr); // adress of value
+  Debug(*ptr); // real value
+  Debug(&ptr); // ptr own address
+  
+  int** _ptr = &ptr;
+  Debug(_ptr); // adress of value
+  Debug(*_ptr); // adress real val
+  Debug(**_ptr); // real val
+  Debug(&_ptr); // _ptr own adress
+}  
+*/
+
+/*
+value of val = 10
+value of &val = 0xfff000bbc
+value of ptr = 0xfff000bbc
+value of *ptr = 10
+value of &ptr = 0xfff000bc0
+value of _ptr = 0xfff000bc0
+value of *_ptr = 0xfff000bbc
+value of **_ptr = 10
+value of &_ptr = 0xfff000bc8
+*/
