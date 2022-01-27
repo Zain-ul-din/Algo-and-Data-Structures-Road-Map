@@ -188,3 +188,32 @@ int main() {
 
     cout<<data.data->name<<endl;
 }
+
+
+/*
+#include<iostream>
+
+class Node{
+  public:
+    int data;
+    Node* left , *right;
+};
+
+void PassByRef(Node** node){
+  Node* temp = *node;
+  delete temp;
+  *node = nullptr;
+}  
+
+void PassByPointer(Node** node){
+  std::cout << "Adress of Ptr : " << (**node).data <<std::endl;
+}
+
+int main (){
+   Node* node = new Node{3 , nullptr , nullptr}; 
+   std::cout << "Adress in Heap : " << &(*node) <<std::endl;
+   PassByRef(&node);
+   
+}
+ // https://pythontutor.com/cpp.html#mode=edit
+*/
