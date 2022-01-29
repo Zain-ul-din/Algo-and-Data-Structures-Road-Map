@@ -126,32 +126,32 @@ AfterMid\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\build
 .PHONY : AfterMid\fast
 
-AllTrees.obj: AllTrees.cpp.obj
+HeapConstruction.obj: HeapConstruction.cpp.obj
 
-.PHONY : AllTrees.obj
+.PHONY : HeapConstruction.obj
 
 # target to build an object file
-AllTrees.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\AllTrees.cpp.obj
-.PHONY : AllTrees.cpp.obj
+HeapConstruction.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\HeapConstruction.cpp.obj
+.PHONY : HeapConstruction.cpp.obj
 
-AllTrees.i: AllTrees.cpp.i
+HeapConstruction.i: HeapConstruction.cpp.i
 
-.PHONY : AllTrees.i
+.PHONY : HeapConstruction.i
 
 # target to preprocess a source file
-AllTrees.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\AllTrees.cpp.i
-.PHONY : AllTrees.cpp.i
+HeapConstruction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\HeapConstruction.cpp.i
+.PHONY : HeapConstruction.cpp.i
 
-AllTrees.s: AllTrees.cpp.s
+HeapConstruction.s: HeapConstruction.cpp.s
 
-.PHONY : AllTrees.s
+.PHONY : HeapConstruction.s
 
 # target to generate assembly for a file
-AllTrees.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\AllTrees.cpp.s
-.PHONY : AllTrees.cpp.s
+HeapConstruction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\HeapConstruction.cpp.s
+.PHONY : HeapConstruction.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AfterMid
-	@echo ... AllTrees.obj
-	@echo ... AllTrees.i
-	@echo ... AllTrees.s
+	@echo ... HeapConstruction.obj
+	@echo ... HeapConstruction.i
+	@echo ... HeapConstruction.s
 .PHONY : help
 
 

@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "AfterMid.exe.manifest"
   "AfterMid.lib"
   "AfterMid.pdb"
-  "CMakeFiles/AfterMid.dir/AllTrees.cpp.obj"
+  "CMakeFiles/AfterMid.dir/HeapConstruction.cpp.obj"
 )
 
 # Per-language clean rules from dependency scanning.
