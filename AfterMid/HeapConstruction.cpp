@@ -101,10 +101,85 @@ private:
         // Swap if currentIdx value is not under min idx
         if(vector[currentIdx] > vector[midIdx])
           Swap(vector[midIdx] , vector[currentIdx]);
-
+        else return;
         currentIdx = midIdx;
 
         SiftDownHelper(currentIdx , (2*currentIdx) +1 , (2*currentIdx) +2 , lastIdx , heap);
+    }
+};
+
+
+// Max Heap Construction
+class MaxHeep{
+public:
+    MaxHeep(){
+        heap.clear();
+    }
+
+    void Insert(int data){
+        heap.push_back(data);
+        SiftUp(heap.size()-1 , heap);
+    }
+
+    void Remove(){
+        if(IsEmpty())
+            return;
+        Swap(heap[0] , heap[heap.size() - 1]);
+        heap.pop_back();
+        SiftDown(0 , heap.size() - 1 , heap);
+    }
+
+    bool IsEmpty(){
+        return heap.empty();
+    }
+
+    int Peek(){
+        return (IsEmpty()) ? -1 : heap[0];
+    }
+private:
+    std::vector<int> heap;
+
+    void SiftUp(int currentIdx ,std::vector<int> &heap){
+        int parentIdx = (currentIdx - 1) / 2; // floor
+        while (currentIdx > 0 && heap[currentIdx] > heap[parentIdx]){
+            Swap(heap[currentIdx] , heap[parentIdx]);
+            currentIdx = parentIdx;
+            parentIdx = (currentIdx - 1) / 2; // floor
+        }
+    }
+
+    void SiftDown(int currentIdx , int maxIdx , std::vector<int>& heap){
+        SiftDownHelper(currentIdx , (2*currentIdx) + 1 , (2*currentIdx)+2 , heap.size()-1 , heap);
+    }
+
+    void SiftDownHelper(int currentIdx , int leftChildIdx , int rightChildIdx , int maxIdx , std::vector<int>& heap) {
+        if(leftChildIdx > maxIdx && rightChildIdx > maxIdx)
+            return;
+
+        leftChildIdx = leftChildIdx   > maxIdx   ?   -1 : leftChildIdx;
+        rightChildIdx = rightChildIdx > maxIdx   ?   -1 : rightChildIdx;
+
+        // -1 is flag represents null node
+
+        // finds idx of max node
+        int _maxIdx;
+        if(leftChildIdx != -1 && rightChildIdx != -1)
+            _maxIdx = heap[leftChildIdx] > heap[rightChildIdx] ? leftChildIdx : rightChildIdx;
+        else _maxIdx = leftChildIdx == -1 ? rightChildIdx : leftChildIdx;
+
+        if(heap[currentIdx] < heap[_maxIdx])
+            Swap(heap[currentIdx] , heap[_maxIdx]);
+        else return;
+
+        currentIdx = _maxIdx;
+
+        SiftDownHelper(currentIdx , (2*currentIdx) + 1 , (2*currentIdx) + 2 , maxIdx ,heap);
+    }
+
+    void Swap(int& val1 , int& val2){
+        val1 = val1 ^ val2;
+        val2 = val1 ^ val2;
+        val1 = val1 ^ val2;
     }
 };
 
@@ -134,11 +209,35 @@ int main () {
      heap.Insert(49);
      heap.Insert(59);
 
-
+     std::cout << "Min Heap :-) OutPut :- \n";
      while(!heap.IsEmpty()){
-         std::cout << heap.peek() << " ";
+         std::cout << " "<< heap.peek() << " ";
          heap.Delete();
      }
+     std::cout << "\n";
+
+     MaxHeep mheap;
+     mheap.Insert(3);
+     mheap.Insert(1);
+     mheap.Insert(9);
+     mheap.Insert(5);
+     mheap.Insert(7);
+     mheap.Insert(11);
+     mheap.Insert(13);
+     mheap.Insert(2);
+     mheap.Insert(0);
+     mheap.Insert(39);
+     mheap.Insert(49);
+     mheap.Insert(59);
+
+     std::cout << "Max Heap :-) OutPut :- \n";
+
+     while (!mheap.IsEmpty()){
+         std::cout << " " << mheap.Peek() << " ";
+         mheap.Remove();
+     }
+
+     std::cout << "\n";
 }
 
  // 0  1  9  39  3  5  13  11  7  2  49  59
