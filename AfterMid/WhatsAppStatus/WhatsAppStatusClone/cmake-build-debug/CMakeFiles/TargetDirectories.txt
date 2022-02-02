@@ -1,3 +1,0 @@
-D:/C++/AfterMid/WhatsAppStatus/WhatsAppStatusClone/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir
-D:/C++/AfterMid/WhatsAppStatus/WhatsAppStatusClone/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C++/AfterMid/WhatsAppStatus/WhatsAppStatusClone/cmake-build-debug/CMakeFiles/rebuild_cache.dir

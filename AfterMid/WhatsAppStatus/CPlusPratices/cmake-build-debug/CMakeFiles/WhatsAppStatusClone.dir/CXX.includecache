@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++/AfterMid/WhatsAppStatus/CPlusPratices/SaveSystem.cpp
+iostream
+-
+sstream
+-
+vector
+-
+fstream
+-
+ctime
+-
+utility
+-
+

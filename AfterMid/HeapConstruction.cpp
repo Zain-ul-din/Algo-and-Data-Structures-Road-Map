@@ -1,4 +1,4 @@
- // Heap Construction
+ // Both Min & Max  Heap Construction
 
 #include <iostream>
 #include <vector>
@@ -39,9 +39,14 @@ public:
          Swap(heap.at(0) , heap.at(LastIndex()));
          heap.pop_back();
          SiftDown( 0 , LastIndex() , heap);
+         // Debug();
      }
 
-
+     void Debug(){
+         for(auto i : heap)
+             std::cout << i << " ";
+         std::cout << "\n";
+     }
 
      int peek(){
          if(!heap.empty())
@@ -87,22 +92,24 @@ private:
         if(leftChildIdx > lastIdx && rightChildIdx > lastIdx)
             return;
 
+
         leftChildIdx = (leftChildIdx > lastIdx)   ? -1 : leftChildIdx;
         rightChildIdx = (rightChildIdx > lastIdx) ? -1 : rightChildIdx;
 
+
         // Here -1 is flag that represent NULL
-        int midIdx;
+        int minIdx;
 
         // checks if any of one is not null and find idx of min value
         if(leftChildIdx != -1 && rightChildIdx != -1 )
-            midIdx = vector[leftChildIdx] < vector[rightChildIdx] ? leftChildIdx : rightChildIdx;
-        else midIdx = (leftChildIdx == -1) ? rightChildIdx : leftChildIdx;
+            minIdx = vector[leftChildIdx] < vector[rightChildIdx] ? leftChildIdx : rightChildIdx;
+        else minIdx = (leftChildIdx == -1) ? rightChildIdx : leftChildIdx;
 
         // Swap if currentIdx value is not under min idx
-        if(vector[currentIdx] > vector[midIdx])
-          Swap(vector[midIdx] , vector[currentIdx]);
+        if(vector[currentIdx] > vector[minIdx])
+          Swap(vector[minIdx] , vector[currentIdx]);
         else return;
-        currentIdx = midIdx;
+        currentIdx = minIdx;
 
         SiftDownHelper(currentIdx , (2*currentIdx) +1 , (2*currentIdx) +2 , lastIdx , heap);
     }
@@ -124,6 +131,7 @@ public:
     void Remove(){
         if(IsEmpty())
             return;
+
         Swap(heap[0] , heap[heap.size() - 1]);
         heap.pop_back();
         SiftDown(0 , heap.size() - 1 , heap);
