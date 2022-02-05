@@ -17,7 +17,7 @@ class Queue{
 		}
 		
 		void Dequeue(void){
-			if(IsEmpty()){
+			if(!IsEmpty()){
 				size --;
 				
 			}
