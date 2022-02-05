@@ -42,7 +42,3 @@ int main (){
 
 
 }
-
-/*
- * I just implemented QuickSort algorithm from book and got weird output. It works but it sorts in descending order instead of ascending
- */
