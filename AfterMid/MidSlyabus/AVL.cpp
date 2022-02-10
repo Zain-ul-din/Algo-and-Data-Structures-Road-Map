@@ -75,6 +75,7 @@ void NodeDepths(Node* root){
     NodeDepths(root->right);
 }
 
+
 int main (){
     Node* root = nullptr;
     InsertNode(root , 3);
