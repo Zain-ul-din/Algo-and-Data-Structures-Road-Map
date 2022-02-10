@@ -2,6 +2,14 @@
 // Created by Zain_uldin on 10/02/2022.
 //
 
+/*
+  How to use ?
+  -> Inherit custom class from base class SaveSystem 
+  -> Pass all data members of custom class to SaveSystem::ToString()
+  -> Make Container that's implement Interface IIterator and overider the function of base class
+  -> Use SaveData (that's take fileName , IIterator) function to save to file  
+*/
+
 #ifndef MIDSLYABUS_SAVESYSTEM_H
 #define MIDSLYABUS_SAVESYSTEM_H
 
