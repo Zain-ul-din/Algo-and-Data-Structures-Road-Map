@@ -6,6 +6,8 @@
 #include<typeinfo>
 #include<functional>
 
+
+
 namespace SaveSystem {
 
     class SaveAble {

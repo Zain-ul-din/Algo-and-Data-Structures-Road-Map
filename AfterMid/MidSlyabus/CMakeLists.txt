@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.19)
 project(MidSlyabus)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(MidSlyabus      AVL.cpp)
+add_executable(MidSlyabus       SaveSystem.h SaveSystemDemo.cpp)
 
 # Algorithm.cpp
 
@@ -14,3 +14,5 @@ add_executable(MidSlyabus      AVL.cpp)
 # SaveSystem.cpp
 
 # Trees.cpp
+
+# AVL.cpp

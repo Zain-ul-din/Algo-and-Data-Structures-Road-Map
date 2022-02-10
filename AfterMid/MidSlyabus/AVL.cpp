@@ -1,5 +1,7 @@
-#include<iostream>
-#include<algorithm>
+#include "SaveSystem.h"
+
+
+
 
 class Node{
 public:
@@ -75,6 +77,33 @@ void NodeDepths(Node* root){
     NodeDepths(root->right);
 }
 
+using namespace Randoms;
+
+class Data : public SaveSystem{
+public:
+    Data(int id, const std::string &name) : id(id), name(name) {
+        Save();
+    }
+
+    void Save(){
+        this->ToString(id ,name);
+    }
+
+
+private:
+    int id;
+    std::string name;
+};
+
+class Container : public IIterator{
+public:
+    void ForEach(std::function<void(SaveSystem &)> function) override {
+           for(int i =0 ; i <newData.size(); i++){
+               function(static_cast<SaveSystem&>(newData[i]));
+           }
+    }
+    std::vector<Data> newData;
+};
 
 int main (){
     Node* root = nullptr;
@@ -84,4 +113,13 @@ int main (){
     InsertNode(root , 5);
     InsertNode(root , 7);
     NodeDepths(root);
+
+    Container container;
+    container.newData.push_back(Data{2, "Name"});
+    container.newData.push_back(Data{25, "Name1"});
+    container.newData.push_back(Data{22, "Name2"});
+    container.newData.push_back(Data{24, "Name3"});
+    container.newData.push_back(Data{23, "Name4"});
+
+    SaveData("MyFile.text" , container);
 }

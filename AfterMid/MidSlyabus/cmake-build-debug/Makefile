@@ -126,32 +126,32 @@ MidSlyabus\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\build
 .PHONY : MidSlyabus\fast
 
-AVL.obj: AVL.cpp.obj
+SaveSystemDemo.obj: SaveSystemDemo.cpp.obj
 
-.PHONY : AVL.obj
+.PHONY : SaveSystemDemo.obj
 
 # target to build an object file
-AVL.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\AVL.cpp.obj
-.PHONY : AVL.cpp.obj
+SaveSystemDemo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.obj
+.PHONY : SaveSystemDemo.cpp.obj
 
-AVL.i: AVL.cpp.i
+SaveSystemDemo.i: SaveSystemDemo.cpp.i
 
-.PHONY : AVL.i
+.PHONY : SaveSystemDemo.i
 
 # target to preprocess a source file
-AVL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\AVL.cpp.i
-.PHONY : AVL.cpp.i
+SaveSystemDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.i
+.PHONY : SaveSystemDemo.cpp.i
 
-AVL.s: AVL.cpp.s
+SaveSystemDemo.s: SaveSystemDemo.cpp.s
 
-.PHONY : AVL.s
+.PHONY : SaveSystemDemo.s
 
 # target to generate assembly for a file
-AVL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\AVL.cpp.s
-.PHONY : AVL.cpp.s
+SaveSystemDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.s
+.PHONY : SaveSystemDemo.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MidSlyabus
-	@echo ... AVL.obj
-	@echo ... AVL.i
-	@echo ... AVL.s
+	@echo ... SaveSystemDemo.obj
+	@echo ... SaveSystemDemo.i
+	@echo ... SaveSystemDemo.s
 .PHONY : help
 
 
