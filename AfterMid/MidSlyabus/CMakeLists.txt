@@ -3,8 +3,14 @@ project(MidSlyabus)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(MidSlyabus   Trees.cpp)
+add_executable(MidSlyabus      AVL.cpp)
+
+# Algorithm.cpp
 
 # main.cpp
 
 # SortingAlgo.cpp
+
+# SaveSystem.cpp
+
+# Trees.cpp

@@ -126,32 +126,32 @@ MidSlyabus\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\build
 .PHONY : MidSlyabus\fast
 
-Trees.obj: Trees.cpp.obj
+AVL.obj: AVL.cpp.obj
 
-.PHONY : Trees.obj
+.PHONY : AVL.obj
 
 # target to build an object file
-Trees.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\Trees.cpp.obj
-.PHONY : Trees.cpp.obj
+AVL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\AVL.cpp.obj
+.PHONY : AVL.cpp.obj
 
-Trees.i: Trees.cpp.i
+AVL.i: AVL.cpp.i
 
-.PHONY : Trees.i
+.PHONY : AVL.i
 
 # target to preprocess a source file
-Trees.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\Trees.cpp.i
-.PHONY : Trees.cpp.i
+AVL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\AVL.cpp.i
+.PHONY : AVL.cpp.i
 
-Trees.s: Trees.cpp.s
+AVL.s: AVL.cpp.s
 
-.PHONY : Trees.s
+.PHONY : AVL.s
 
 # target to generate assembly for a file
-Trees.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\Trees.cpp.s
-.PHONY : Trees.cpp.s
+AVL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\AVL.cpp.s
+.PHONY : AVL.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MidSlyabus
-	@echo ... Trees.obj
-	@echo ... Trees.i
-	@echo ... Trees.s
+	@echo ... AVL.obj
+	@echo ... AVL.i
+	@echo ... AVL.s
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MidSlyabus.dir/Trees.cpp.obj"
+  "CMakeFiles/MidSlyabus.dir/AVL.cpp.obj"
   "MidSlyabus.exe"
   "MidSlyabus.exe.manifest"
   "MidSlyabus.lib"

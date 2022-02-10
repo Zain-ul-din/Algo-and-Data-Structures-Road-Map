@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f0547b1-bbfb-444a-96ed-6405f34f4d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../C++ Design Pattern/Day1/SOD.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../C++ Design Pattern/OOP_inCPlusPlus/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../C++ Design Pattern/OOP_inCPlusPlus/HTML.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../C++ Design Pattern/OOP_inCPlusPlus/HTMLHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../C++ Design Pattern/OOP_inCPlusPlus/Tag.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../C++ Design Pattern/OOP_inCPlusPlus/Utilities.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../C++ Design Pattern/OOP_inCPlusPlus/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.STL Remake.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.STL Remake.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CircularQueue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CircularQueue.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/Algorithm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/Trees.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/MidSlyabus.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/MidSlyabus.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/MidSlyabus.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/MidSlyabus.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/MidSlyabus.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/MidSlyabus.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/MidSlyabus.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/MidSlyabus.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfterMid/MidSlyabus/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +73,7 @@
       <workItem from="1638525125590" duration="349000" />
       <workItem from="1638525556291" duration="363000" />
       <workItem from="1640717481269" duration="178000" />
+      <workItem from="1644245260244" duration="166000" />
     </task>
     <servers />
   </component>
