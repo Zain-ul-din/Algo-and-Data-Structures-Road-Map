@@ -186,15 +186,15 @@ private:
         node->data = minData;
     }
 
+public:
     // Helper
     template<class CallBack>
     void _Traversel(Node<T>* root , CallBack callBack ) {
          if(root == nullptr)
              return;
-         callBack(root->data);
-
-        _Traversel(root->left);
-        _Traversel(root->right);
+        _Traversel(root->left , callBack);
+        _Traversel(root->right , callBack);
+        callBack(root->data);
     }
 
     // Helper
@@ -214,10 +214,10 @@ private:
         if(root == nullptr)
             return;
 
+        callBack(root->data);
         _PreOrderTraversel(root->left , callBack);
         _PreOrderTraversel(root->right , callBack);
 
-        callBack(root->data);
     }
 };
 
@@ -227,21 +227,40 @@ int main () {
 
 
     BST<int> bst;
-    bst.Insert(3);
-    bst.Insert(2);
-    bst.Insert(7);
-    bst.Insert(10);
-    bst.Insert(9);
-    bst.Insert(8);
-    bst.Insert(15);
     bst.Insert(30);
+    bst.Insert(20);
+    bst.Insert(40);
+    bst.Insert(15);
+    bst.Insert(35);
+    bst.Insert(25);
+    bst.Insert(50);
+    bst.Insert(5);
+    bst.Insert(45);
+    bst.Insert(60);
+    bst.Insert(18);
 
-    bst.Delete(7);
+   // bst.Delete(7);
 
-    bst.Display();
-    std::cout <<"\n Invert BST :- \n";
-    bst.Invert(bst.GetRoot());
-    bst.Display();
+   std::cout << "In Order Traversal :-\n";
+   bst._InOrderTraversel(bst.GetRoot() , [&](auto val){
+       std::cout << " " << val << " ";
+   });
 
-    return 0;
+   std::cout << "\n";
+
+   std::cout << "Post Order Traversal \n";
+   bst._Traversel(bst.GetRoot() , [&](auto val){
+      std::cout << " " << val << " ";
+   });
+
+   std::cout << "\n";
+
+   std::cout << "PreOrder traversal \n";
+   bst._PreOrderTraversel(bst.GetRoot() , [&](auto val){
+       std::cout << " " << val << " ";
+   });
+
+   std::cout << "\n";
+
+   return 0;
 }

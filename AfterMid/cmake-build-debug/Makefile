@@ -126,32 +126,32 @@ AfterMid\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\build
 .PHONY : AfterMid\fast
 
-HeapConstruction.obj: HeapConstruction.cpp.obj
+MergeSort.obj: MergeSort.cpp.obj
 
-.PHONY : HeapConstruction.obj
+.PHONY : MergeSort.obj
 
 # target to build an object file
-HeapConstruction.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\HeapConstruction.cpp.obj
-.PHONY : HeapConstruction.cpp.obj
+MergeSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\MergeSort.cpp.obj
+.PHONY : MergeSort.cpp.obj
 
-HeapConstruction.i: HeapConstruction.cpp.i
+MergeSort.i: MergeSort.cpp.i
 
-.PHONY : HeapConstruction.i
+.PHONY : MergeSort.i
 
 # target to preprocess a source file
-HeapConstruction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\HeapConstruction.cpp.i
-.PHONY : HeapConstruction.cpp.i
+MergeSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\MergeSort.cpp.i
+.PHONY : MergeSort.cpp.i
 
-HeapConstruction.s: HeapConstruction.cpp.s
+MergeSort.s: MergeSort.cpp.s
 
-.PHONY : HeapConstruction.s
+.PHONY : MergeSort.s
 
 # target to generate assembly for a file
-HeapConstruction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\HeapConstruction.cpp.s
-.PHONY : HeapConstruction.cpp.s
+MergeSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\MergeSort.cpp.s
+.PHONY : MergeSort.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AfterMid
-	@echo ... HeapConstruction.obj
-	@echo ... HeapConstruction.i
-	@echo ... HeapConstruction.s
+	@echo ... MergeSort.obj
+	@echo ... MergeSort.i
+	@echo ... MergeSort.s
 .PHONY : help
 
 

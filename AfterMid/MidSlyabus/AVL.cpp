@@ -8,41 +8,41 @@ public:
     int data;
     Node* left , *right;
 
-//    int Depth () {
-//        return std::max(this->LeftDepth() , this->RightDepth());
-//    }
-//
-//    int LeftDepth () {
-//        if(!this->left)
-//            return 0;
-//        return this->left->Depth()+1;
-//    }
-//
-//    int RightDepth () {
-//        if( this->right == nullptr)
-//            return 0;
-//        return this->right->Depth()+1;
-//    }
+    int Depth () {
+        return std::max(this->LeftDepth() , this->RightDepth());
+    }
 
-    int Depth(){
-        int depth = 0;
-        Helper(this , depth);
-        return depth;
+    int LeftDepth () {
+        if(!this->left)
+            return 0;
+        return this->left->Depth()+1;
     }
-private:
 
-    void Helper(Node* root ,int &res){
-        if(root == nullptr)
-            return;
-        root->GetDepth(res);
-        Helper(root->left , res);
-        Helper(root->right , res);
+    int RightDepth () {
+        if( this->right == nullptr)
+            return 0;
+        return this->right->Depth()+1;
     }
-    void GetDepth(int &res){
-        int left  = this->left ? 1  : 0;
-        int right = this->right ? 1 : 0;
-        res += std::max(left , right);
-    }
+
+//    int Depth(){
+//        int depth = 0;
+//        Helper(this , depth);
+//        return depth;
+//    }
+//private:
+//
+//    void Helper(Node* root ,int &res){
+//        if(root == nullptr)
+//            return;
+//        root->GetDepth(res);
+//        Helper(root->left , res);
+//        Helper(root->right , res);
+//    }
+//    void GetDepth(int &res){
+//        int left  = this->left ? 1  : 0;
+//        int right = this->right ? 1 : 0;
+//        res += std::max(left , right);
+//    }
 };
 
 // Insert New Node
