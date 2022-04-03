@@ -33,6 +33,12 @@ void QuickSort(int startIdx , int endIdx){
     QuickSort(startIdx, rightIdx - 1);
 }
 
+
+class Car{
+public:
+
+};
+
 // Driver Code
 int main (){
     QuickSort(0 , SIZE-1);

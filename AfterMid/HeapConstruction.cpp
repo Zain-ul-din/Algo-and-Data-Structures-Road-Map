@@ -24,7 +24,7 @@ public:
          std::cout << "Parent Idx : " << parentIdx;
 
          for (int  i = parentIdx ; i >= 0 ; i--)
-             SiftDown(i , LastIndex() , heap);
+             SiftUp(i , LastIndex() , heap);
      }
 
      void Insert (const int data) {

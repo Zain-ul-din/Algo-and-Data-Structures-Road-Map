@@ -60,33 +60,33 @@ include CMakeFiles\MidSlyabus.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\MidSlyabus.dir\flags.make
 
-CMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.obj: CMakeFiles\MidSlyabus.dir\flags.make
-CMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.obj: ..\SaveSystemDemo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++\AfterMid\MidSlyabus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MidSlyabus.dir/SaveSystemDemo.cpp.obj"
+CMakeFiles\MidSlyabus.dir\MainFile.cpp.obj: CMakeFiles\MidSlyabus.dir\flags.make
+CMakeFiles\MidSlyabus.dir\MainFile.cpp.obj: ..\MainFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++\AfterMid\MidSlyabus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MidSlyabus.dir/MainFile.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.obj /FdCMakeFiles\MidSlyabus.dir\ /FS -c D:\C++\AfterMid\MidSlyabus\SaveSystemDemo.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MidSlyabus.dir\MainFile.cpp.obj /FdCMakeFiles\MidSlyabus.dir\ /FS -c D:\C++\AfterMid\MidSlyabus\MainFile.cpp
 <<
 
-CMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MidSlyabus.dir/SaveSystemDemo.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++\AfterMid\MidSlyabus\SaveSystemDemo.cpp
+CMakeFiles\MidSlyabus.dir\MainFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MidSlyabus.dir/MainFile.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\MidSlyabus.dir\MainFile.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++\AfterMid\MidSlyabus\MainFile.cpp
 <<
 
-CMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MidSlyabus.dir/SaveSystemDemo.cpp.s"
+CMakeFiles\MidSlyabus.dir\MainFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MidSlyabus.dir/MainFile.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.s /c D:\C++\AfterMid\MidSlyabus\SaveSystemDemo.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MidSlyabus.dir\MainFile.cpp.s /c D:\C++\AfterMid\MidSlyabus\MainFile.cpp
 <<
 
 # Object files for target MidSlyabus
 MidSlyabus_OBJECTS = \
-"CMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.obj"
+"CMakeFiles\MidSlyabus.dir\MainFile.cpp.obj"
 
 # External object files for target MidSlyabus
 MidSlyabus_EXTERNAL_OBJECTS =
 
-MidSlyabus.exe: CMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.obj
+MidSlyabus.exe: CMakeFiles\MidSlyabus.dir\MainFile.cpp.obj
 MidSlyabus.exe: CMakeFiles\MidSlyabus.dir\build.make
 MidSlyabus.exe: CMakeFiles\MidSlyabus.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C++\AfterMid\MidSlyabus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MidSlyabus.exe"

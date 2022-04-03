@@ -4,12 +4,20 @@
 
 #include<iostream>
 
+using namespace std;
+
+///
+/// DoublyLinkedList --Helper
+///
 class Node{
 public:
     int data;
     Node* prev , *next;
 };
 
+///
+/// Doubly Linked List Container
+///
 class DoublyLinkedList{
 public:
     DoublyLinkedList(){
@@ -140,6 +148,7 @@ private:
 
 class CircularLinkedList{
 public:
+    // Circular LinkedList
     CircularLinkedList(){
         head = nullptr;
         tail = nullptr;

@@ -1,4 +1,5 @@
-"D:\System\__C_Lion\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\C++\AfterMid
--- Configuring done
--- Generating done
--- Build files have been written to: D:/C++/AfterMid/cmake-build-debug
+Visual Studio not found at: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community Configure Disable profile
+
+Cannot get compiler information:
+	Cannot locate vcvarsall.bat in C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
+	Please check if Visual C++ support is installed

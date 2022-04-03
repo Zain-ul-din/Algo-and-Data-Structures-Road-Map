@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C++/AfterMid/MergeSort.cpp">
+		<Unit filename="D:/C++/AfterMid/Heap.cpp">
 			<Option target="AfterMid"/>
 		</Unit>
 		<Unit filename="D:/C++/AfterMid/CMakeLists.txt">

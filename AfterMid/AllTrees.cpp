@@ -227,17 +227,19 @@ int main () {
 
 
     BST<int> bst;
+
     bst.Insert(30);
     bst.Insert(20);
     bst.Insert(40);
     bst.Insert(15);
-    bst.Insert(35);
     bst.Insert(25);
+    bst.Insert(35);
     bst.Insert(50);
     bst.Insert(5);
+    bst.Insert(18);
     bst.Insert(45);
     bst.Insert(60);
-    bst.Insert(18);
+
 
    // bst.Delete(7);
 

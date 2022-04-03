@@ -3,7 +3,7 @@ project(MidSlyabus)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(MidSlyabus       SaveSystem.h SaveSystemDemo.cpp)
+add_executable(MidSlyabus MainFile.cpp)
 
 # Algorithm.cpp
 
@@ -16,3 +16,5 @@ add_executable(MidSlyabus       SaveSystem.h SaveSystemDemo.cpp)
 # Trees.cpp
 
 # AVL.cpp
+
+# SaveSystem.h SaveSystemDemo.cpp

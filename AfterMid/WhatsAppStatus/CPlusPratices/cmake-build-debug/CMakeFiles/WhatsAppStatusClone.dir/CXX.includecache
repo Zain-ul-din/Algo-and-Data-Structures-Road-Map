@@ -6,17 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/C++/AfterMid/WhatsAppStatus/CPlusPratices/SaveSystem.cpp
+D:/C++/AfterMid/WhatsAppStatus/CPlusPratices/main.cpp
 iostream
 -
-sstream
--
-vector
--
-fstream
--
-ctime
--
-utility
+string
 -
 

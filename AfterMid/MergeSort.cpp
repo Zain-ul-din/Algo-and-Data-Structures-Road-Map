@@ -105,13 +105,12 @@ void DoMerge(int startIdx , int midIdx , int lastIdx , int arr[]){
         if (arr[i]<=arr[j]){
             tempArray[k]=arr[i];
             i += 1;
-            k += 1;
         }
         else{
             tempArray[k]=arr[j];
             j += 1;
-            k += 1;
         }
+        k += 1;
     }
 
     while(i<=midIdx){
@@ -126,8 +125,10 @@ void DoMerge(int startIdx , int midIdx , int lastIdx , int arr[]){
         k += 1;
     }
 
-    for (int i=startIdx;i<=lastIdx; i += 1)
-        arr[i]=tempArray[i];
+    [&](){
+         for (int i = startIdx;i <= lastIdx; i += 1)
+             arr[i]=tempArray[i];
+    }();
 }
 
 // Driver Code

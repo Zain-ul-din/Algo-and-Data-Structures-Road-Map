@@ -126,32 +126,32 @@ MidSlyabus\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\build
 .PHONY : MidSlyabus\fast
 
-SaveSystemDemo.obj: SaveSystemDemo.cpp.obj
+MainFile.obj: MainFile.cpp.obj
 
-.PHONY : SaveSystemDemo.obj
+.PHONY : MainFile.obj
 
 # target to build an object file
-SaveSystemDemo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.obj
-.PHONY : SaveSystemDemo.cpp.obj
+MainFile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\MainFile.cpp.obj
+.PHONY : MainFile.cpp.obj
 
-SaveSystemDemo.i: SaveSystemDemo.cpp.i
+MainFile.i: MainFile.cpp.i
 
-.PHONY : SaveSystemDemo.i
+.PHONY : MainFile.i
 
 # target to preprocess a source file
-SaveSystemDemo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.i
-.PHONY : SaveSystemDemo.cpp.i
+MainFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\MainFile.cpp.i
+.PHONY : MainFile.cpp.i
 
-SaveSystemDemo.s: SaveSystemDemo.cpp.s
+MainFile.s: MainFile.cpp.s
 
-.PHONY : SaveSystemDemo.s
+.PHONY : MainFile.s
 
 # target to generate assembly for a file
-SaveSystemDemo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\SaveSystemDemo.cpp.s
-.PHONY : SaveSystemDemo.cpp.s
+MainFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MidSlyabus.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MidSlyabus.dir\MainFile.cpp.s
+.PHONY : MainFile.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MidSlyabus
-	@echo ... SaveSystemDemo.obj
-	@echo ... SaveSystemDemo.i
-	@echo ... SaveSystemDemo.s
+	@echo ... MainFile.obj
+	@echo ... MainFile.i
+	@echo ... MainFile.s
 .PHONY : help
 
 

@@ -126,32 +126,32 @@ WhatsAppStatusClone\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhatsAppStatusClone.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhatsAppStatusClone.dir\build
 .PHONY : WhatsAppStatusClone\fast
 
-SaveSystem.obj: SaveSystem.cpp.obj
+main.obj: main.cpp.obj
 
-.PHONY : SaveSystem.obj
+.PHONY : main.obj
 
 # target to build an object file
-SaveSystem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhatsAppStatusClone.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhatsAppStatusClone.dir\SaveSystem.cpp.obj
-.PHONY : SaveSystem.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhatsAppStatusClone.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhatsAppStatusClone.dir\main.cpp.obj
+.PHONY : main.cpp.obj
 
-SaveSystem.i: SaveSystem.cpp.i
+main.i: main.cpp.i
 
-.PHONY : SaveSystem.i
+.PHONY : main.i
 
 # target to preprocess a source file
-SaveSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhatsAppStatusClone.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhatsAppStatusClone.dir\SaveSystem.cpp.i
-.PHONY : SaveSystem.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhatsAppStatusClone.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhatsAppStatusClone.dir\main.cpp.i
+.PHONY : main.cpp.i
 
-SaveSystem.s: SaveSystem.cpp.s
+main.s: main.cpp.s
 
-.PHONY : SaveSystem.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-SaveSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhatsAppStatusClone.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhatsAppStatusClone.dir\SaveSystem.cpp.s
-.PHONY : SaveSystem.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WhatsAppStatusClone.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\WhatsAppStatusClone.dir\main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... WhatsAppStatusClone
-	@echo ... SaveSystem.obj
-	@echo ... SaveSystem.i
-	@echo ... SaveSystem.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

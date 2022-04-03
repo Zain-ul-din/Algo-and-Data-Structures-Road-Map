@@ -6,25 +6,17 @@
 
 #IncludeRegexTransform: 
 
-D:/C++/AfterMid/MidSlyabus/SaveSystem.h
+D:/C++/AfterMid/MidSlyabus/MainFile.cpp
 iostream
--
-vector
--
-sstream
 -
 string
 -
-functional
+vector
 -
-fstream
--
-iterator
+ctime
 -
 algorithm
 -
-
-D:/C++/AfterMid/MidSlyabus/SaveSystemDemo.cpp
-SaveSystem.h
-D:/C++/AfterMid/MidSlyabus/SaveSystem.h
+sstream
+-
 

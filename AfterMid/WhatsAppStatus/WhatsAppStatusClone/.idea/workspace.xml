@@ -10,66 +10,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c0192ff-69a3-43ce-abf0-e032e3faf2a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../AllTrees.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../AllTrees.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Heap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Heap.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HeapConstruction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../HeapConstruction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WhatsAppStatusClone.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Time.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/embed.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/intermediate.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/manifest.rc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/manifest.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/vc140.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Name.text" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/WhatsAppStatusClone.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/WhatsAppStatusClone.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/WhatsAppStatusClone.ilk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/WhatsAppStatusClone.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MergeSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MergeSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/MainFile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/MainFile.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/SaveSystemDemo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/SaveSystemDemo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/SortingAlgo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/SortingAlgo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/SaveSystemDemo.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/MidSlyabus.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/MidSlyabus.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/MidSlyabus.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/MidSlyabus.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/MidSlyabus.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/MidSlyabus.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/MidSlyabus.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/MidSlyabus.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/MidSlyabus.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MidSlyabus/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../MidSlyabus/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/SaveSystem.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/WhatsAppStatusClone.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/WhatsAppStatusClone.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/WhatsAppStatusClone.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/WhatsAppStatusClone.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/WhatsAppStatusClone.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/WhatsAppStatusClone.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/WhatsAppStatusClone.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/cmake-build-debug/WhatsAppStatusClone.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPratices/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPratices/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/AfterMid.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/AfterMid.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/AfterMid.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/AfterMid.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/AfterMid.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/AfterMid.ilk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/AfterMid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/AfterMid.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/HeapConstruction.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/HeapConstruction.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/AllTrees.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/AllTrees.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/MergeSort.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/CMakeFiles/AfterMid.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../RoadMapToUnreal/CPlusCloud/FireBaseTest/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../RoadMapToUnreal/CPlusCloud/FireBaseTest/main.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +131,8 @@
       <workItem from="1643622794582" duration="233000" />
       <workItem from="1643633924666" duration="3744000" />
       <workItem from="1643637733376" duration="40000" />
+      <workItem from="1647331380257" duration="55000" />
+      <workItem from="1648807322342" duration="78000" />
     </task>
     <servers />
   </component>

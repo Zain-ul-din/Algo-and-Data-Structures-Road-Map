@@ -29,7 +29,35 @@ public:
     std::vector<Data> array;
 };
 
+class Car{
+public:
+    Car() {}
+
+    Car(int id, const std::string name) : id(id), name(name) {}
+
+
+    int id ;
+    std::string name;
+};
+
+class Student{
+    int rollNo;
+public:
+    void SetRollNo(int arollNo); // define
+};
+
+
+void Student::SetRollNo(int arollNo) {
+    rollNo = arollNo;
+}
+
+
 int main(){
+    Car obj;
+    Car obj1(3 , "BMW");
+
+    std::cout << " " << obj1.name << " ";
+
     Container container;
     container.array.push_back({2,"Name"});
     container.array.push_back({3,"Name2"});

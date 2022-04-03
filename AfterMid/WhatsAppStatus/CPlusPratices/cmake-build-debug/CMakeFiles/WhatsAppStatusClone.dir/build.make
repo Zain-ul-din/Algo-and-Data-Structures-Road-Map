@@ -60,33 +60,33 @@ include CMakeFiles\WhatsAppStatusClone.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\WhatsAppStatusClone.dir\flags.make
 
-CMakeFiles\WhatsAppStatusClone.dir\SaveSystem.cpp.obj: CMakeFiles\WhatsAppStatusClone.dir\flags.make
-CMakeFiles\WhatsAppStatusClone.dir\SaveSystem.cpp.obj: ..\SaveSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++\AfterMid\WhatsAppStatus\CPlusPratices\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WhatsAppStatusClone.dir/SaveSystem.cpp.obj"
+CMakeFiles\WhatsAppStatusClone.dir\main.cpp.obj: CMakeFiles\WhatsAppStatusClone.dir\flags.make
+CMakeFiles\WhatsAppStatusClone.dir\main.cpp.obj: ..\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++\AfterMid\WhatsAppStatus\CPlusPratices\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WhatsAppStatusClone.dir/main.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\WhatsAppStatusClone.dir\SaveSystem.cpp.obj /FdCMakeFiles\WhatsAppStatusClone.dir\ /FS -c D:\C++\AfterMid\WhatsAppStatus\CPlusPratices\SaveSystem.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\WhatsAppStatusClone.dir\main.cpp.obj /FdCMakeFiles\WhatsAppStatusClone.dir\ /FS -c D:\C++\AfterMid\WhatsAppStatus\CPlusPratices\main.cpp
 <<
 
-CMakeFiles\WhatsAppStatusClone.dir\SaveSystem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WhatsAppStatusClone.dir/SaveSystem.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\WhatsAppStatusClone.dir\SaveSystem.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++\AfterMid\WhatsAppStatus\CPlusPratices\SaveSystem.cpp
+CMakeFiles\WhatsAppStatusClone.dir\main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WhatsAppStatusClone.dir/main.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\WhatsAppStatusClone.dir\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++\AfterMid\WhatsAppStatus\CPlusPratices\main.cpp
 <<
 
-CMakeFiles\WhatsAppStatusClone.dir\SaveSystem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WhatsAppStatusClone.dir/SaveSystem.cpp.s"
+CMakeFiles\WhatsAppStatusClone.dir\main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WhatsAppStatusClone.dir/main.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\WhatsAppStatusClone.dir\SaveSystem.cpp.s /c D:\C++\AfterMid\WhatsAppStatus\CPlusPratices\SaveSystem.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\WhatsAppStatusClone.dir\main.cpp.s /c D:\C++\AfterMid\WhatsAppStatus\CPlusPratices\main.cpp
 <<
 
 # Object files for target WhatsAppStatusClone
 WhatsAppStatusClone_OBJECTS = \
-"CMakeFiles\WhatsAppStatusClone.dir\SaveSystem.cpp.obj"
+"CMakeFiles\WhatsAppStatusClone.dir\main.cpp.obj"
 
 # External object files for target WhatsAppStatusClone
 WhatsAppStatusClone_EXTERNAL_OBJECTS =
 
-WhatsAppStatusClone.exe: CMakeFiles\WhatsAppStatusClone.dir\SaveSystem.cpp.obj
+WhatsAppStatusClone.exe: CMakeFiles\WhatsAppStatusClone.dir\main.cpp.obj
 WhatsAppStatusClone.exe: CMakeFiles\WhatsAppStatusClone.dir\build.make
 WhatsAppStatusClone.exe: CMakeFiles\WhatsAppStatusClone.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C++\AfterMid\WhatsAppStatus\CPlusPratices\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable WhatsAppStatusClone.exe"

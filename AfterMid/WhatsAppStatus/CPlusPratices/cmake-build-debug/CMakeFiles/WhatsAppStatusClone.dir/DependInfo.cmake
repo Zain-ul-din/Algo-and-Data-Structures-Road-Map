@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/C++/AfterMid/WhatsAppStatus/CPlusPratices/SaveSystem.cpp" "D:/C++/AfterMid/WhatsAppStatus/CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/SaveSystem.cpp.obj"
+  "D:/C++/AfterMid/WhatsAppStatus/CPlusPratices/main.cpp" "D:/C++/AfterMid/WhatsAppStatus/CPlusPratices/cmake-build-debug/CMakeFiles/WhatsAppStatusClone.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

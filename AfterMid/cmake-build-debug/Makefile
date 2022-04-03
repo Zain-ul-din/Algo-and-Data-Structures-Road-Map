@@ -126,32 +126,32 @@ AfterMid\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\build
 .PHONY : AfterMid\fast
 
-MergeSort.obj: MergeSort.cpp.obj
+Heap.obj: Heap.cpp.obj
 
-.PHONY : MergeSort.obj
+.PHONY : Heap.obj
 
 # target to build an object file
-MergeSort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\MergeSort.cpp.obj
-.PHONY : MergeSort.cpp.obj
+Heap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\Heap.cpp.obj
+.PHONY : Heap.cpp.obj
 
-MergeSort.i: MergeSort.cpp.i
+Heap.i: Heap.cpp.i
 
-.PHONY : MergeSort.i
+.PHONY : Heap.i
 
 # target to preprocess a source file
-MergeSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\MergeSort.cpp.i
-.PHONY : MergeSort.cpp.i
+Heap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\Heap.cpp.i
+.PHONY : Heap.cpp.i
 
-MergeSort.s: MergeSort.cpp.s
+Heap.s: Heap.cpp.s
 
-.PHONY : MergeSort.s
+.PHONY : Heap.s
 
 # target to generate assembly for a file
-MergeSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\MergeSort.cpp.s
-.PHONY : MergeSort.cpp.s
+Heap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AfterMid.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\AfterMid.dir\Heap.cpp.s
+.PHONY : Heap.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AfterMid
-	@echo ... MergeSort.obj
-	@echo ... MergeSort.i
-	@echo ... MergeSort.s
+	@echo ... Heap.obj
+	@echo ... Heap.i
+	@echo ... Heap.s
 .PHONY : help
 
 

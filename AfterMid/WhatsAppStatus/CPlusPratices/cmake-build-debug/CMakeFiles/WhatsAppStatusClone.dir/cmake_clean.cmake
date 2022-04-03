@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/WhatsAppStatusClone.dir/SaveSystem.cpp.obj"
+  "CMakeFiles/WhatsAppStatusClone.dir/main.cpp.obj"
   "WhatsAppStatusClone.exe"
   "WhatsAppStatusClone.exe.manifest"
   "WhatsAppStatusClone.lib"
