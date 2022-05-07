@@ -263,10 +263,8 @@ public:
             SaveFileRecords();
         }
 
-         if (!FileSystem::IsExists(fileName) , true) {
+         if (!FileSystem::IsExists(fileName) , true)
             FileSystem::CreateFile(fileName);
-            return;
-         }
 
          Student student;
          FileSystem::ReadFile(fileName , [&](string& str){
