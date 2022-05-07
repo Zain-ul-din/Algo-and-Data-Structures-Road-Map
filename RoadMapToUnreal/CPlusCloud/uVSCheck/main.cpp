@@ -1,7 +1,30 @@
 #include<iostream>
 
-// Driver Code
+class A {
+	protected:
+		int number;
+
+	void GetNumber (){
+		std::cout << "Hey";
+	}
+
+	void Print(){
+		std::cout << number;
+	}
+
+	friend class B;
+};
+
+class B : public A{
+	public:
+
+	void GetNumber (){
+        a.GetNumber();
+	}
+    A a;
+
+};
+
 int main () {
-    std::cout << "Hello World \n";
-    return 0;
+	B b;
 }

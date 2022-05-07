@@ -1,0 +1,3 @@
+D:/C++/StudentReportManagement/cmake-build-debug/CMakeFiles/StudentReportManagement.dir
+D:/C++/StudentReportManagement/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C++/StudentReportManagement/cmake-build-debug/CMakeFiles/rebuild_cache.dir

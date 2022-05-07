@@ -209,7 +209,28 @@ public:
 		
 		if (std::all_of (dFlag.begin() , dFlag.end() , [&](char box){
 			return box == COMPARE_CHAR;
-		})){
+		}) && dFlag.size() == rowSize){
+			WINTEXT
+			return false;
+		}
+		
+		dIdx = colSize - 1;
+		dFlag.clear();
+		_colSize = colSize;
+		
+		for (int i = 0 ; i < arr.size() ; i+= 1){
+			if (i == dIdx)
+			 dFlag.push_back(arr[i]);
+			if (i == _colSize - 1){
+				_colSize += colSize;
+				dIdx -= 1;
+				dIdx += colSize;
+			} 
+		}
+	
+		if (std::all_of (dFlag.begin() , dFlag.end() , [&](char box){
+			return box == COMPARE_CHAR;
+		}) && dFlag.size() == rowSize){
 			WINTEXT
 			return false;
 		}
@@ -272,6 +293,7 @@ class InputManager {
 		}
 		
 		/*
+		
 		   Btn Click Events
 		*/
 		Event<void> OnUpBtnPressed;
@@ -442,7 +464,7 @@ void clearScreen(){
 
 void set_cursor(bool visible){
     CONSOLE_CURSOR_INFO info;
-    info.dwSize = 10;
+    info.dwSize = 1;
     info.bVisible = visible;
     SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &info);
 }
