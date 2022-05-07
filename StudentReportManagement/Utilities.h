@@ -79,13 +79,13 @@ namespace Utilities {
         return "red"; // not good
     }
 
-    char GetGrade (const double max,  const double obtained) {
+    string GetGrade (const double max,  const double obtained) {
         double score = GetPercentage(max , obtained);
-        if (score >= 85) return 'A';
-        if (score >= 75) return 'B';
-        if (score >= 65) return 'C';
-        if (score >= 40) return 'D';
-        else return 'F';
+        if (score >= 85) return "A";
+        if (score >= 75) return "B";
+        if (score >= 65) return "C";
+        if (score >= 40) return "D";
+        else return "F";
     }
 }
 

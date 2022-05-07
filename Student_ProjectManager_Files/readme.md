@@ -11,7 +11,7 @@
     "project title" : "Student Report Manager" ,
     "dependencies"  : { "1"  , ["Randoms_Colors"] } ,
     "language"      : "c++" ,
-    "version"       : "1.0.1" ,
+    "version"       : "1.0.2" ,
     "c++ version"   : "^11 or later" ,
     "created by"    : {
         "zain ul din"

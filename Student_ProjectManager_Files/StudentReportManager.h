@@ -805,7 +805,8 @@ protected:
         cout << "\t Percentage : ";
         Input::PrintStr(to_string(Utilities::GetPercentage(this->subjectsTotalMarks , val->getTotalMarks() ) ).c_str(),0, ' ' ,gradeFlag);
         cout << "\n\t Grade : ";
-        Input::PrintStr(to_string(Utilities::GetGrade(this->subjectsTotalMarks , val->getTotalMarks())).c_str() , 0 , ' ' , gradeFlag);
+        string grade = Utilities::GetGrade(this->subjectsTotalMarks , val->getTotalMarks());
+        Input::PrintStr( grade.c_str() , 0 , ' ' , gradeFlag);
         Input::Print("\n\t BETTER LUCK FOR NEXT TIME :-) \n" , magenta);
     }
 
