@@ -14,17 +14,16 @@ class MinHeap{
 public:
      MinHeap(std::vector<int>& vector){
           heap = vector;
+          BuildHeap();
      }
 
      void BuildHeap () {
          if(IsEmpty())
              return;
 
-         int parentIdx = LastIndex() -1 / 2;
-         std::cout << "Parent Idx : " << parentIdx;
 
-         for (int  i = parentIdx ; i >= 0 ; i--)
-             SiftUp(i , LastIndex() , heap);
+         for (int  i = heap.size() - 1 ; i >= 0 ; i--)
+             this->SiftDown(i , heap.size()-1 , heap);
      }
 
      void Insert (const int data) {
@@ -106,11 +105,12 @@ private:
         else minIdx = (leftChildIdx == -1) ? rightChildIdx : leftChildIdx;
 
         // Swap if currentIdx value is not under min idx
-        if(vector[currentIdx] > vector[minIdx])
+        if(vector[currentIdx] > vector[minIdx]) {
           Swap(vector[minIdx] , vector[currentIdx]);
-        else return;
-        currentIdx = minIdx;
-
+		} 
+         
+		currentIdx = minIdx;	 
+        
         SiftDownHelper(currentIdx , (2*currentIdx) +1 , (2*currentIdx) +2 , lastIdx , heap);
     }
 };
@@ -157,7 +157,7 @@ private:
     }
 
     void SiftDown(int currentIdx , int maxIdx , std::vector<int>& heap){
-        SiftDownHelper(currentIdx , (2*currentIdx) + 1 , (2*currentIdx)+2 , heap.size()-1 , heap);
+        SiftDownHelper(currentIdx , (2*currentIdx) + 1 , (2*currentIdx)+2 , maxIdx , heap);
     }
 
     void SiftDownHelper(int currentIdx , int leftChildIdx , int rightChildIdx , int maxIdx , std::vector<int>& heap) {
@@ -194,7 +194,7 @@ private:
 // Driver Code
 int main () {
      std::vector<int> vec {
-//             3,1,9,5,7,11, 13,2,0,39,49,59
+            3,1,9,5,7,11, 13,2,0,39,49,59
      };
 
      MinHeap heap(vec);
@@ -203,19 +203,19 @@ int main () {
 //     heap.Insert(9);
 //     heap.Insert(5);
 //     heap.Insert(7);
-
-     heap.Insert(3);
-     heap.Insert(1);
-     heap.Insert(9);
-     heap.Insert(5);
-     heap.Insert(7);
-     heap.Insert(11);
-     heap.Insert(13);
-     heap.Insert(2);
-     heap.Insert(0);
-     heap.Insert(39);
-     heap.Insert(49);
-     heap.Insert(59);
+//
+//     heap.Insert(3);
+//     heap.Insert(1);
+//     heap.Insert(9);
+//     heap.Insert(5);
+//     heap.Insert(7);
+//     heap.Insert(11);
+//     heap.Insert(13);
+//     heap.Insert(2);
+//     heap.Insert(0);
+//     heap.Insert(39);
+//     heap.Insert(49);
+//     heap.Insert(59);
 
      std::cout << "Min Heap :-) OutPut :- \n";
      while(!heap.IsEmpty()){

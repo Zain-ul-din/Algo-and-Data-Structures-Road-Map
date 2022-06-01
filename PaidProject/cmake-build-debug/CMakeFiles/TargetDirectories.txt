@@ -1,0 +1,3 @@
+D:/C++/PaidProject/cmake-build-debug/CMakeFiles/PaidProject.dir
+D:/C++/PaidProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C++/PaidProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -117,3 +117,23 @@ namespace Randoms {
 
 #endif //RANDOMS_COLORS
 
+/*
+My App functionalities
+
+-> Override Functions ...
+-> Implement Functions ...
+-> Generate Definitions ...
+-> Reformat Code
+-> Auto Indent Lines
+-> Make Code prettier
+-> Clean silently
+-> Creates Getter / Setter for class
+-> Creates All types of Constructor
+-> Ostream operator overloading
+-> Equality operator overloading
+-> Relational operator overloading
+
+ My app will create this code with in fraction of milliseconds
+
+ */
+

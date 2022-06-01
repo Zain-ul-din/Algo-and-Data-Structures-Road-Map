@@ -1,0 +1,3 @@
+D:/C++/StudentReportManagement/out/build/x64-Debug/CMakeFiles/StudentReportManagement.dir
+D:/C++/StudentReportManagement/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/C++/StudentReportManagement/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

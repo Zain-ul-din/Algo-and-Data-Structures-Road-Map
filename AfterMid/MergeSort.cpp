@@ -102,7 +102,7 @@ void DoMerge(int startIdx , int midIdx , int lastIdx , int arr[]){
     int tempArray[SIZE];
 
     while (i <= midIdx && j <= lastIdx){
-        if (arr[i]<=arr[j]){
+        if (arr[i] <= arr[j]){
             tempArray[k]=arr[i];
             i += 1;
         }

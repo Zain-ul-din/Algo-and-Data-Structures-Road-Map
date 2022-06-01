@@ -70,7 +70,7 @@ namespace Randoms {
         backCol=backcolor;
                                                                 unsigned short wAttributes= ((unsigned int)backCol << 4) | (unsigned int)textCol;
                                                                 SetConsoleTextAttribute(std_con_out,wAttributes);}
-
+    
 
     void SetBgColor(); inline
     void Init
@@ -80,7 +80,7 @@ namespace Randoms {
                                                                  update_colors();
                                                                  defTextCol = textCol;
                                                                  defBackCol = backCol;}
-
+    
     void SetBgColor
                                                              () {
                                                                       const char $ = ' '; const int $_$ = 2;
