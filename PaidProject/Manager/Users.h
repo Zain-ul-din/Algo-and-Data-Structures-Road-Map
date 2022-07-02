@@ -1,14 +1,20 @@
 //
-// Dependencies : SaveSystem.h
+// Dependencies : NONE
 //
 
 #ifndef USERS_H
 #define USERS_H
 
 #include "../Users/Doctor.h"
-
+#include "../Users/Patient.h"
+#include "../Users/Appointment.h"
 
 class Users;
+
+/*
+ * Login for (admin, patient, doctor), log in with username and password, mention wrong credentials,
+   Logout, data operation from files
+ */
 
 class Users {
 public:
@@ -16,8 +22,7 @@ public:
     virtual void SignUp () = 0;
     virtual void SignIn () = 0;
 
-    virtual void Delete(string options = "") = 0;
-    virtual void Update(string options = "") = 0;
+    virtual void Update(int idx) = 0;
 
     virtual void LoadData () = 0;
     virtual void SaveData () = 0;

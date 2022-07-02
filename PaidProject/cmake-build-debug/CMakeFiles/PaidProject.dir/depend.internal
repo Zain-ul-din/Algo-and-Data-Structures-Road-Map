@@ -3,13 +3,20 @@
 
 CMakeFiles/PaidProject.dir/main.cpp.obj
  D:/C++/PaidProject/FileManager/SaveSystem.h
- D:/C++/PaidProject/Helpers/ErrorHandler.h
+ D:/C++/PaidProject/Helpers/Algorithm.h
  D:/C++/PaidProject/Helpers/Input.h
+ D:/C++/PaidProject/Helpers/Time.h
  D:/C++/PaidProject/Login/Validator.h
+ D:/C++/PaidProject/Manager/Appointments.h
  D:/C++/PaidProject/Manager/Doctors.h
- D:/C++/PaidProject/Manager/OldaDoc_Manager.h
+ D:/C++/PaidProject/Manager/OlaDoc_Manager.h
+ D:/C++/PaidProject/Manager/Patients.h
  D:/C++/PaidProject/Manager/Users.h
  D:/C++/PaidProject/OlaDoc.h
+ D:/C++/PaidProject/Users/Admin.h
+ D:/C++/PaidProject/Users/Appointment.h
  D:/C++/PaidProject/Users/Doctor.h
+ D:/C++/PaidProject/Users/Patient.h
+ D:/C++/PaidProject/Users/Payment.h
  D:/C++/PaidProject/Users/User.h
  D:/C++/PaidProject/main.cpp

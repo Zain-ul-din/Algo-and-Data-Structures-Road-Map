@@ -4,11 +4,18 @@
 #ifndef USER_H
 #define USER_H
 
-#include <iostream>
+
 #include "../Login/Validator.h"
 #include "../FileManager/SaveSystem.h"
+#include "../Helpers/Time.h"
 
 using namespace std;
+
+/*
+ * Successfully implemented Abstract class “User” and inheritance relation with the doctor, admin
+   patient
+   Question 2
+ */
 
 // @ User Base Class
 class User {
@@ -16,12 +23,13 @@ public:
     /* Constructor */
 
     User(const string &name, const string &cnicNumber, string password) : name(name),
-                                                                                          cnicNumber(cnicNumber),
-                                                                                          password(password) {}
+    cnicNumber(cnicNumber),
+    password(password) {}
+
     User() {
-        this->name = name;
-        this->cnicNumber = "";
-        this->password = "";
+        this->name = "undefined";
+        this->cnicNumber = "undefined";
+        this->password = "undefined";
     }
 
     /* Getter &  Setter's */
@@ -32,16 +40,16 @@ public:
     void setCnicNumber(const string &cnicNumber) { this->cnicNumber = cnicNumber;}
     string getPassword() const { return password;}
     void setPassword(const string &password) { this->password = password;}
-    void setAdmin (bool state){this->isAdmin = state;}
-    bool IsAdmin () const {return this->isAdmin;}
+
 
     /* Virtual Functions */
 
+    virtual void Update () = 0;
 protected:
     string name;
     string cnicNumber;
     string password;
-    bool isAdmin = false;
 };
+
 
 #endif //USER_H
