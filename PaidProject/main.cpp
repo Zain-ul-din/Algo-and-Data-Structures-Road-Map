@@ -10,8 +10,14 @@
 #include <ostream>
 #include "./OlaDoc.h"
 
-
-
+class doc {
+    public:
+     doc (int number) : number (number) {}
+     doc () {this->number = 0;}
+     // using namespace std;
+    private:
+      int number;
+};
 
 // Driver Code
 int main () {
@@ -19,3 +25,6 @@ int main () {
     olaDoc.RunApplication();
     return 0;
 }
+
+
+
