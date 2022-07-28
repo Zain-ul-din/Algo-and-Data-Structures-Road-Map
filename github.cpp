@@ -27,6 +27,7 @@ int main () {
 	  out.close();
 	 // system ("git status");
 	  system ("git add .");
+	  std::cout << $ << "\n";
 	  system  ($.c_str());
 	  system ("git push -u origin master");
     } 
