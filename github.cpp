@@ -25,7 +25,7 @@ int main () {
 	  out << " \n";
 	  $+= "\"";
 	  out.close();
-	  system ("git status");
+	 // system ("git status");
 	  system ("git add .");
 	  system  ($.c_str());
 	  system ("git push -u origin master");
