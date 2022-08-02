@@ -11,14 +11,14 @@ void ReadInput (std::string& string) {
 }
 
 /*
-4 3
-<tag1 value = "HelloWorld">
-<tag2 name = "Name1">
-</tag2>
-</tag1>
-tag1.tag2~name
-tag1~name
-tag1~value
+ 4 3
+ <tag1 value = "HelloWorld">
+ <tag2 name = "Name1">
+ </tag2>
+ </tag1>
+ tag1.tag2~name
+ tag1~name
+ tag1~value
 */
 
 class Tag {
